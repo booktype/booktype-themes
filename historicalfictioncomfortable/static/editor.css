@@ -67,7 +67,7 @@ p.quote:before {
     text-align: center; 
     font-weight: normal; 
     text-transform: none; 
-    font-size: 1.3em;
+    font-size: 1.33em;
     line-height: inherit;
     margin-top: 39.6pt; 
     margin-bottom: 39.6pt;
@@ -165,8 +165,8 @@ p.quote:before {
 #contenteditor div.group_img+p,
 #contenteditor div.aloha-table+p {
     margin-top: 0;
-    text-indent: 0pt;
-    margin-bottom: 13.2pt;
+    text-indent: 0em;
+    margin-bottom: 0.7em;
 }
 
 /* Lists *****************************************************************/

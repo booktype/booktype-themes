@@ -274,7 +274,8 @@ ul+p,
 ol+p,
 div.group_img+p,
 table+p {
-    text-indent: 1em;
+    text-indent: 2em;
+    margin-bottom: 0.15em;
 }
 
 ul,
@@ -303,10 +304,13 @@ table {
     margin-bottom: 10px;
 }
 
-table, 
+table {
+    border-top: 0.5mm solid black;
+    border-bottom: 0.5mm solid black;
+}
 th, 
 td {
-    border: 0.5mm solid black;
+    border-top: 0.3mm solid black;
 }
 
 td {

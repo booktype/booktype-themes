@@ -14,7 +14,7 @@
   font-family: "texgyreadventor"; 
   margin: 30px 0;
   font-weight: normal; 
-  font-size: 0.9em;
+  font-size: 1.33em;
   font-style: normal;
   quotes: "\201C" "\201D" "\2018" "\2019";
   position: relative;
@@ -67,7 +67,7 @@ p.quote:before {
     text-align: left; 
     font-weight: normal; 
     text-transform: none; 
-    font-size: 1.6em;
+    font-size: 1.86em;
     line-height: inherit;
     margin-top: 0pt; 
     margin-bottom: 60pt;
@@ -165,8 +165,8 @@ p.quote:before {
 #contenteditor div.group_img+p,
 #contenteditor div.aloha-table+p {
     margin-top: 0;
-    text-indent: 0pt;
-    margin-bottom: 15pt;
+    text-indent: 0em;
+    margin-bottom: 0.7em;
 }
 
 /* Lists *****************************************************************/

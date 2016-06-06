@@ -165,8 +165,8 @@ p.quote:before {
 #contenteditor div.group_img+p,
 #contenteditor div.aloha-table+p {
     margin-top: 0;
-    text-indent: 13.2pt;
-    margin-bottom: 0pt;
+    text-indent: 2em;
+    margin-bottom: 0.15em;
 }
 
 /* Lists *****************************************************************/

@@ -63,7 +63,7 @@ h1.section {
   font-family: "im_fell_dw_pica_pro"; 
   text-align: center; 
   font-weight: normal; 
-  font-size: %PartFontSizeRemVal%em;
+  font-size: 1.33em;
   text-transform: none; 
   text-decoration: none;
   margin-top: 0;
@@ -76,9 +76,9 @@ h1.frontmatter-title {
   font-family: "im_fell_dw_pica_pro"; 
   text-decoration: none;
   border-bottom: 0px; 
-  font-size: 2.3em;
+  font-size: 1.86em;
   line-height: normal;
-  margin-top: 3em;
+  margin-top: 1.5em;
   margin-bottom: 0;
 }
 
@@ -86,7 +86,7 @@ h2.frontmatter-author {
   text-align: left; 
   font-family: "im_fell_dw_pica_pro"; 
   border-bottom: 0px; 
-  font-size: 1.3em;
+  font-size: 1.33em;
   line-height: normal;
   margin-top: 2em;
 }
@@ -103,7 +103,7 @@ h2.frontmatter-author-title {
   font-family: "im_fell_dw_pica_pro"; 
   border-bottom: 0px; 
   margin-top: 2em;
-  font-size: 1.7em;
+  font-size: 1.49em;
   line-height: normal;
 }
 
@@ -112,7 +112,7 @@ h3.frontmatter-subtitle {
   font-family: "im_fell_dw_pica_pro"; 
   border-bottom: 0px; 
   margin-top: 10mm;
-  font-size: 1.7em;
+  font-size: 1.49em;
   line-height: normal;
 }
 */
@@ -169,9 +169,10 @@ h1 {
   text-align: center; 
   text-decoration: none;
   line-height: normal; 
-  font-size: 1.3em; 
+  font-size: 1.33em; 
   /*font-size: 3.6em;*/
-  margin-bottom: 1em; 
+  margin-top: 2.1em;
+  margin-bottom: 2.1em;
 }
 
 h2 {
@@ -183,6 +184,7 @@ h2 {
   line-height: normal; 
   font-size: 1em; 
   /*font-size: 2.2em;*/
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
@@ -195,6 +197,7 @@ h3 {
   line-height: normal; 
   font-size: 1em; 
   /*font-size: 1.8em;*/
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
@@ -207,6 +210,7 @@ h4 {
   line-height: normal; 
   font-size: 1em; 
   /*font-size: 1.4em;*/
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
@@ -219,6 +223,7 @@ h5 {
   line-height: normal; 
   font-size: 1em; 
   /*font-size: 1.2em;*/
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
@@ -255,7 +260,8 @@ ul+p,
 ol+p,
 div.group_img+p,
 table+p {
-    text-indent: 20px;
+    text-indent: 0em;
+    margin-bottom: 0.7em;
 }
 
 ul,
@@ -284,10 +290,13 @@ table {
     margin-bottom: 10px;
 }
 
-table, 
+table {
+    border-top: 0.5mm solid black;
+    border-bottom: 0.5mm solid black;
+}
 th, 
 td {
-    border: 0.5mm solid black;
+    border-top: 0.3mm solid black;
 }
 
 td {
