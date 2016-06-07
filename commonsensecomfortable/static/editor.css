@@ -12,16 +12,17 @@
 #contenteditor blockquote, 
 #contenteditor p.quote {
   font-family: "ubuntu-light"; 
-  margin: 30px 0;
   font-weight: normal; 
   font-size: 1.33em;
   font-style: normal;
   quotes: "\201C" "\201D" "\2018" "\2019";
   position: relative;
   text-align: left; 
+  text-indent: 0;
   line-height: inherit; 
   border-left: 0.05rem solid #000;
   padding-left: 2em;
+  padding-top: 0em;
   margin-left: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -55,24 +56,25 @@ p.quote:before {
     text-transform: none; 
     border-bottom: 0rem solid black;
     text-decoration: none;
+    padding-top: 42.9pt; 
+    margin-bottom: 42.9pt;
+    line-height: inherit;
+    line-height: 28.6pt; 
+}
+
+#contenteditor h1 {
+    font-family: "ubuntu-light";
+    font-size: 22.1pt;
+    text-align: left; 
+    font-weight: normal; 
+    text-transform: none; 
+    border-bottom: 0rem solid black;
+    text-decoration: none;
     padding-top: 4.7pt; 
     margin-bottom: 9.6pt;
     line-height: inherit;
     line-height: 28.6pt; 
 }
-
-/*
-#contenteditor h1 {
-    font-family: "ubuntu-light";
-    text-align: left; 
-    font-weight: normal; 
-    text-transform: none; 
-    font-size: 1.86em;
-    line-height: inherit;
-    margin-top: 42.9pt; 
-    margin-bottom: 42.9pt;
-}
-*/
 
 #contenteditor h2 {
     font-family: "ubuntu-light";
@@ -156,7 +158,7 @@ p.quote:before {
     font-size: inherit; 
     line-height: inherit;
     text-indent: 0;
-    margin-bottom: 14.3pt; /* spacing between paragraphs */
+    margin-bottom: 0.7em;
 }
 /* Not first paragraph **************************************************/
 #contenteditor p+p,

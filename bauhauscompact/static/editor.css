@@ -12,16 +12,17 @@
 #contenteditor blockquote, 
 #contenteditor p.quote {
   font-family: "texgyreadventor"; 
-  margin: 30px 0;
   font-weight: normal; 
   font-size: 1.33em;
   font-style: normal;
   quotes: "\201C" "\201D" "\2018" "\2019";
   position: relative;
   text-align: left; 
+  text-indent: 0;
   line-height: inherit; 
   border-left: 0.05rem solid #000;
   padding-left: 2em;
+  padding-top: 0em;
   margin-left: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -55,24 +56,25 @@ p.quote:before {
     text-transform: none; 
     border-bottom: 0.05rem solid black;
     text-decoration: none;
+    padding-top: 0pt; 
+    margin-bottom: 60pt;
+    line-height: inherit;
+    line-height: 30pt; 
+}
+
+#contenteditor h1 {
+    font-family: "texgyreadventor";
+    font-size: 23.3pt;
+    text-align: left; 
+    font-weight: normal; 
+    text-transform: none; 
+    border-bottom: 0.05rem solid black;
+    text-decoration: none;
     padding-top: 15pt; 
     margin-bottom: 15pt;
     line-height: inherit;
     line-height: 30pt; 
 }
-
-/*
-#contenteditor h1 {
-    font-family: "texgyreadventor";
-    text-align: left; 
-    font-weight: normal; 
-    text-transform: none; 
-    font-size: 1.86em;
-    line-height: inherit;
-    margin-top: 0pt; 
-    margin-bottom: 60pt;
-}
-*/
 
 #contenteditor h2 {
     font-family: "texgyreadventor";
@@ -156,7 +158,7 @@ p.quote:before {
     font-size: inherit; 
     line-height: inherit;
     text-indent: 0;
-    margin-bottom: 0pt; /* spacing between paragraphs */
+    margin-bottom: 0.18em;
 }
 /* Not first paragraph **************************************************/
 #contenteditor p+p,
@@ -165,8 +167,8 @@ p.quote:before {
 #contenteditor div.group_img+p,
 #contenteditor div.aloha-table+p {
     margin-top: 0;
-    text-indent: 2em;
-    margin-bottom: 0.15em;
+    text-indent: 1em;
+    margin-bottom: 0.18em;
 }
 
 /* Lists *****************************************************************/

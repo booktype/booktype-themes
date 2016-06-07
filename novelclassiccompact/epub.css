@@ -275,6 +275,7 @@ ol+p,
 div.group_img+p,
 table+p {
     text-indent: 1em;
+    margin-bottom: 0.15em;
 }
 
 ul,
@@ -298,21 +299,24 @@ img {
 
 table {
     border-collapse: collapse;
-    width: 100%;
+    max-width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-table, 
+table {
+    border-top: 0.5mm solid black;
+    border-bottom: 0.5mm solid black;
+}
 th, 
 td {
-    border: 0.5mm solid black;
+    border-top: 0.3mm solid black;
 }
 
 td {
     font-family: "texgyreschola"; 
     font-weight: normal;
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: normal;
     margin: 0;
 }
@@ -320,6 +324,7 @@ td {
 th, 
 td {
     padding: .6rem .8em;
+    text-indent: none;
 }
 
 .group_img {

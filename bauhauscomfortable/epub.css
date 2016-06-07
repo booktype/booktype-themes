@@ -299,7 +299,7 @@ img {
 
 table {
     border-collapse: collapse;
-    width: 100%;
+    max-width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -316,7 +316,7 @@ td {
 td {
     font-family: "texgyreadventor"; 
     font-weight: normal;
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: normal;
     margin: 0;
 }
@@ -324,6 +324,7 @@ td {
 th, 
 td {
     padding: .6rem .8em;
+    text-indent: none;
 }
 
 .group_img {

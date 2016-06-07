@@ -302,7 +302,7 @@ ul+p,
 ol+p,
 div.group_img+p,
 table+p {
-    text-indent: 2em;
+    text-indent: 1em;
     margin-bottom: 0.15em;
 }
 

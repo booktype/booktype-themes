@@ -27,7 +27,7 @@
 }
 
 body {
-  font-size: 12pt;
+  font-size: 1em;
   line-height: normal;
   margin: 0;
   padding: 0;
@@ -49,7 +49,7 @@ h1.section {
   font-family: "texgyrecursor"; 
   text-align: center; 
   font-weight: bold; 
-  font-size: %PartFontSizeRemVal%em;
+  font-size: 1.6em;
   text-transform: none; 
   text-decoration: none;
   margin-top: 0;
@@ -62,9 +62,9 @@ h1.frontmatter-title {
   font-family: "texgyrecursor"; 
   text-decoration: none;
   border-bottom: 0px; 
-  font-size: 5em;
-  line-height: 110%;
-  margin-top: 20mm;
+  font-size: 1.6em;
+  line-height: normal;
+  margin-top: 1.5em;
   margin-bottom: 0;
 }
 
@@ -72,16 +72,25 @@ h2.frontmatter-author {
   text-align: left; 
   font-family: "texgyrecursor"; 
   border-bottom: 0px; 
-  margin-top: 30mm;
-  font-size: 2.2em;
+  font-size: 1.6em;
+  line-height: normal;
+  margin-top: 2em;
 }
-
+div.frontmatter-line {
+  width: 6em;
+  background-color: black;
+  height: 0.3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/*
 h2.frontmatter-author-title {
   text-align: left; 
   font-family: "texgyrecursor"; 
   border-bottom: 0px; 
-  margin-top: 10mm;
-  font-size: 2.2em;
+  margin-top: 2em;
+  font-size: 1.6em;
+  line-height: normal;
 }
 
 h3.frontmatter-subtitle {
@@ -89,17 +98,10 @@ h3.frontmatter-subtitle {
   font-family: "texgyrecursor"; 
   border-bottom: 0px; 
   margin-top: 10mm;
-  font-size: 2.2em;
-  line-height: 120%;
+  font-size: 1em;
+  line-height: normal;
 }
-
-div.frontmatter-line {
-  width: 60mm;
-  background-color: black;
-  height: 1mm;
-  margin-top: 10mm;
-  margin-bottom: 10mm;
-}
+*/
 
 p.quote {
   font-family: "texgyrecursor"; 
@@ -152,8 +154,11 @@ h1 {
   text-transform: none; 
   text-align: left; 
   text-decoration: none;
-  font-size: 3.6em;
-  margin-bottom: 1em; 
+  line-height: normal; 
+  font-size: 1.33em; 
+  /*font-size: 3.6em;*/
+  margin-top: 3em;
+  margin-bottom: 2.1em;
 }
 
 h2 {
@@ -162,7 +167,10 @@ h2 {
   text-transform: none; 
   text-align: left; 
   text-decoration: none;
-  font-size: 2.2em;
+  line-height: normal; 
+  font-size: 1em; 
+  /*font-size: 2.2em;*/
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
@@ -172,7 +180,10 @@ h3 {
   text-transform: none; 
   text-align: left; 
   text-decoration: underline;
-  font-size: 1.8em;
+  line-height: normal; 
+  font-size: 1em; 
+  /*font-size: 1.8em;*/
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
@@ -182,7 +193,10 @@ h4 {
   text-transform: none; 
   text-align: left; 
   text-decoration: none;
-  font-size: 1.4em;
+  line-height: normal; 
+  font-size: 1em; 
+  /*font-size: 1.4em;*/
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
@@ -192,7 +206,10 @@ h5 {
   text-transform: none; 
   text-align: left; 
   text-decoration: none;
-  font-size: 1.2em;
+  line-height: normal; 
+  font-size: 1em; 
+  /*font-size: 1.2em;*/
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
@@ -229,7 +246,8 @@ ul+p,
 ol+p,
 div.group_img+p,
 table+p {
-    text-indent: 20px;
+    text-indent: 0em;
+    margin-bottom: 0.7em;
 }
 
 ul,
@@ -253,21 +271,24 @@ img {
 
 table {
     border-collapse: collapse;
-    width: 100%;
+    max-width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-table, 
+table {
+    border-top: 0.5mm solid black;
+    border-bottom: 0.5mm solid black;
+}
 th, 
 td {
-    border: 0.5mm solid black;
+    border-top: 0.3mm solid black;
 }
 
 td {
     font-family: "texgyrecursor"; 
     font-weight: normal;
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: normal;
     margin: 0;
 }
@@ -275,6 +296,7 @@ td {
 th, 
 td {
     padding: .6rem .8em;
+    text-indent: none;
 }
 
 .group_img {

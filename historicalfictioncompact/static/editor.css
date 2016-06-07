@@ -12,16 +12,17 @@
 #contenteditor blockquote, 
 #contenteditor p.quote {
   font-family: "im_fell_dw_pica_pro"; 
-  margin: 30px 0;
   font-weight: normal; 
   font-size: 1em;
   font-style: italic;
   quotes: "\201C" "\201D" "\2018" "\2019";
   position: relative;
   text-align: left; 
+  text-indent: 0;
   line-height: inherit; 
   border-left: 0rem solid #fff;
   padding-left: 0em;
+  padding-top: 0em;
   margin-left: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -49,6 +50,20 @@ p.quote:before {
 
 #contenteditor .aloha-block-TitleBlock h1 {
     font-family: "im_fell_dw_pica_pro";
+    font-size: 14.6pt;
+    text-align: center; 
+    font-weight: normal; 
+    text-transform: none; 
+    border-bottom: 0rem solid black;
+    text-decoration: none;
+    padding-top: 39.6pt; 
+    margin-bottom: 39.6pt;
+    line-height: inherit;
+    line-height: 13.2pt; 
+}
+
+#contenteditor h1 {
+    font-family: "im_fell_dw_pica_pro";
     font-size: 11pt;
     text-align: left; 
     font-weight: normal; 
@@ -60,19 +75,6 @@ p.quote:before {
     line-height: inherit;
     line-height: 13.2pt; 
 }
-
-/*
-#contenteditor h1 {
-    font-family: "im_fell_dw_pica_pro";
-    text-align: center; 
-    font-weight: normal; 
-    text-transform: none; 
-    font-size: 1.33em;
-    line-height: inherit;
-    margin-top: 39.6pt; 
-    margin-bottom: 39.6pt;
-}
-*/
 
 #contenteditor h2 {
     font-family: "im_fell_dw_pica_pro";
@@ -156,7 +158,7 @@ p.quote:before {
     font-size: inherit; 
     line-height: inherit;
     text-indent: 0;
-    margin-bottom: 0pt; /* spacing between paragraphs */
+    margin-bottom: 0.18em;
 }
 /* Not first paragraph **************************************************/
 #contenteditor p+p,
@@ -165,8 +167,8 @@ p.quote:before {
 #contenteditor div.group_img+p,
 #contenteditor div.aloha-table+p {
     margin-top: 0;
-    text-indent: 2em;
-    margin-bottom: 0.15em;
+    text-indent: 1em;
+    margin-bottom: 0.18em;
 }
 
 /* Lists *****************************************************************/
