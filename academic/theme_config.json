@@ -14,7 +14,7 @@
     "BodyTextAlign": "justify",
     "BodyParagraphIndent": "true",
     "BodyParagraphSpacing": "none",
-    "PreformattedFontFamily": "freemono",
+    "PreformattedFontFamily": "texgyrecursor",
     "PreformattedPadding": "1-top:1-bottom",
     "QuoteFontFamily": "inherit",
     "QuoteFontWeight": "normal",

@@ -5,11 +5,11 @@
           'I' => "Roboto-Italic.ttf",
           'BI' => "Roboto-BoldItalic.ttf",
         ),
-        "freemono" => array(
-          'R' => "FreeMono.ttf",
-          'B' => "FreeMonoBold.ttf",
-          'I' => "FreeMonoOblique.ttf",
-          'BI' => "FreeMonoBoldOblique.ttf",
+        "texgyrecursor" => array(
+          'R' => "TeXGyreCursor-Regular.ttf",
+          'B' => "TeXGyreCursor-Bold.ttf",
+          'I' => "TeXGyreCursor-Italic.ttf",
+          'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
         "roboto-condensed" => array(
           'R' => "RobotoCondensed-Regular.ttf",

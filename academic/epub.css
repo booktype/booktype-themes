@@ -27,31 +27,31 @@
 }
 
 @font-face {
-    font-family: 'freemono';
+    font-family: 'texgyrecursor';
     font-weight: normal;
     font-style: normal;
-    src: url('../Fonts/FreeMono.ttf');
+    src: url('../Fonts/TeXGyreCursor-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'freemono';
+    font-family: 'texgyrecursor';
     font-weight: bold;
     font-style: normal;
-    src: url('../Fonts/FreeMonoBold.ttf');
+    src: url('../Fonts/TeXGyreCursor-Bold.ttf');
 }
 
 @font-face {
-    font-family: 'freemono';
+    font-family: 'texgyrecursor';
     font-weight: normal;
     font-style: italic;
-    src: url('../Fonts/FreeMonoOblique.ttf');
+    src: url('../Fonts/TeXGyreCursor-Italic.ttf');
 }
 
 @font-face {
-    font-family: 'freemono';
+    font-family: 'texgyrecursor';
     font-weight: bold;
     font-style: italic;
-    src: url('../Fonts/FreeMonoBoldOblique.ttf');
+    src: url('../Fonts/TeXGyreCursor-BoldItalic.ttf');
 }
 
 @font-face {
