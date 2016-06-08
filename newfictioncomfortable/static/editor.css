@@ -51,7 +51,7 @@ p.quote:before {
 #contenteditor .aloha-block-TitleBlock h1 {
     font-family: "ubuntu";
     font-size: 12pt;
-    text-align: center; 
+    text-align: left; 
     font-weight: normal; 
     text-transform: none; 
     border-bottom: 0rem solid black;

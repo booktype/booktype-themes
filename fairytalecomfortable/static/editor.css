@@ -1,9 +1,9 @@
 #contenteditor {
-  font-size: 12pt;
+  font-size: 13pt;
   line-height: normal;
   margin: 0;
   padding: 0;
-  font-family: "ubuntu";
+  font-family: "texgyrepagella";
   color: #000000;
 }
 
@@ -11,7 +11,7 @@
 
 #contenteditor blockquote, 
 #contenteditor p.quote {
-  font-family: "ubuntu"; 
+  font-family: "texgyrepagella"; 
   font-weight: normal; 
   font-size: 1em;
   font-style: italic;
@@ -49,87 +49,87 @@ p.quote:before {
 }
 
 #contenteditor .aloha-block-TitleBlock h1 {
-    font-family: "ubuntu";
-    font-size: 12pt;
-    text-align: left; 
+    font-family: "texgyrepagella";
+    font-size: 13.3pt;
+    text-align: center; 
     font-weight: normal; 
     text-transform: none; 
     border-bottom: 0rem solid black;
     text-decoration: none;
-    padding-top: 43.2pt; 
-    margin-bottom: 43.2pt;
+    padding-top: 39pt; 
+    margin-bottom: 39pt;
     line-height: inherit;
-    line-height: 14.4pt; 
+    line-height: 13pt; 
 }
 
 #contenteditor h1 {
-    font-family: "ubuntu";
-    font-size: 9pt;
+    font-family: "texgyrepagella";
+    font-size: 10pt;
     text-align: left; 
     font-weight: bold; 
     text-transform: none; 
     border-bottom: 0rem solid black;
     text-decoration: none;
-    padding-top: 9.6pt; 
-    margin-bottom: 4.8pt;
+    padding-top: 4.3pt; 
+    margin-bottom: 8.7pt;
     line-height: inherit;
-    line-height: 14.4pt; 
+    line-height: 13pt; 
 }
 
 #contenteditor h2 {
-    font-family: "ubuntu";
-    font-size: 9pt;
+    font-family: "texgyrepagella";
+    font-size: 10pt;
     text-align: left; 
     font-weight: bold; 
     text-transform: none; 
     border-bottom: 0rem solid black;
     text-decoration: none;
-    padding-top: 9.6pt; 
-    margin-bottom: 4.8pt;
+    padding-top: 17.3pt; 
+    margin-bottom: 8.7pt;
     line-height: inherit;
-    line-height: 14.4pt; 
+    line-height: 13pt; 
 }
 
 #contenteditor h3 {
-    font-family: "ubuntu";
-    font-size: 9pt;
+    font-family: "texgyrepagella";
+    font-size: 10pt;
     text-align: left; 
     font-weight: bold; 
     text-transform: none; 
     border-bottom: 0rem solid black;
     text-decoration: none;
-    padding-top: 9.6pt; 
-    margin-bottom: 4.8pt;
+    padding-top: 4.3pt; 
+    margin-bottom: 8.7pt;
     line-height: inherit;
-    line-height: 14.4pt; 
+    line-height: 13pt; 
 }
 
 #contenteditor h4 {    
-    font-family: "ubuntu";
-    font-size: 9pt;
+    font-family: "texgyrepagella";
+    font-size: 10pt;
     text-align: left; 
     font-weight: normal; 
     text-transform: none; 
     border-bottom: 0rem solid black;
     text-decoration: none;
-    padding-top: 9.6pt; 
-    margin-bottom: 4.8pt;
+    padding-top: 4.3pt; 
+    margin-bottom: 8.7pt;
     line-height: inherit;
-    line-height: 14.4pt; 
+    line-height: 13pt; 
 }
 
 #contenteditor h5 { 
-    font-family: "ubuntu";
-    font-size: 9pt;
+    font-family: "texgyrepagella";
+    font-size: 10pt;
     text-align: left; 
     font-weight: normal; 
     text-transform: none; 
     border-bottom: 0rem solid black;
     text-decoration: none;
-    padding-top: 9.6pt; 
-    margin-bottom: 4.8pt;
+    padding-top: 4.3pt; 
+    margin-bottom: 8.7pt;
     line-height: inherit;
-    line-height: 14.4pt; 
+    line-height: 13pt; 
 }
 
 /* Paragraph Styles *****************************************************/
@@ -141,7 +141,7 @@ p.quote:before {
 }
 
 #contenteditor p {
-    font-family: "ubuntu";
+    font-family: "texgyrepagella";
     font-weight: normal;
     font-size: inherit;
     line-height: inherit;
@@ -153,12 +153,12 @@ p.quote:before {
 #contenteditor h2 + p,
 #contenteditor h3 + p,
 #contenteditor h4 + p {
-    font-family: "ubuntu";
+    font-family: "texgyrepagella";
     font-weight: normal;
     font-size: inherit; 
     line-height: inherit;
     text-indent: 0;
-    margin-bottom: 0.18em;
+    margin-bottom: 0.7em;
 }
 /* Not first paragraph **************************************************/
 #contenteditor p+p,
@@ -167,8 +167,8 @@ p.quote:before {
 #contenteditor div.group_img+p,
 #contenteditor div.aloha-table+p {
     margin-top: 0;
-    text-indent: 1em;
-    margin-bottom: 0.18em;
+    text-indent: 0em;
+    margin-bottom: 0.7em;
 }
 
 /* Lists *****************************************************************/
@@ -183,13 +183,13 @@ p.quote:before {
 #contenteditor ul,
 #contenteditor ol,
 #contenteditor li {
-  font-family: "ubuntu";
+  font-family: "texgyrepagella";
 }
 
 /* Preformatted text *******************************/
 
 #contenteditor pre {
-  font-family: "ubuntu-mono";
+  font-family: "texgyrecursor";
   margin-top: 1em;
   margin-bottom: 1em;
   font-size: inherit;
@@ -211,7 +211,7 @@ p.quote:before {
 }
 
 #contenteditor table td {
-  font-family: "ubuntu";
+  font-family: "texgyrepagella";
   font-weight: normal;
   font-size: 0.8em;
   margin: 0;
@@ -260,7 +260,7 @@ p.quote:before {
 
 #contenteditor .endnotes-container .endnote-counter,
 #contenteditor .endnotes-container .endnoteText {
-  font-family: "ubuntu";
+  font-family: "texgyrepagella";
   font-weight: normal;
   font-size: inherit;
   line-height: normal;

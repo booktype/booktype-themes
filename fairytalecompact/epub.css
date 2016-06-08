@@ -1,57 +1,57 @@
 @font-face {
-    font-family: 'ubuntu';
+    font-family: 'texgyrepagella';
     font-weight: normal;
     font-style: normal;
-    src: url('../Fonts/Ubuntu-R.ttf');
+    src: url('../Fonts/TeXGyrePagella-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'ubuntu';
+    font-family: 'texgyrepagella';
     font-weight: bold;
     font-style: normal;
-    src: url('../Fonts/Ubuntu-B.ttf');
+    src: url('../Fonts/TeXGyrePagella-Bold.ttf');
 }
 
 @font-face {
-    font-family: 'ubuntu';
+    font-family: 'texgyrepagella';
     font-weight: normal;
     font-style: italic;
-    src: url('../Fonts/Ubuntu-RI.ttf');
+    src: url('../Fonts/TeXGyrePagella-Italic.ttf');
 }
 
 @font-face {
-    font-family: 'ubuntu';
+    font-family: 'texgyrepagella';
     font-weight: bold;
     font-style: italic;
-    src: url('../Fonts/Ubuntu-BI.ttf');
+    src: url('../Fonts/TeXGyrePagella-BoldItalic.ttf');
 }
 
 @font-face {
-    font-family: 'ubuntu-mono';
+    font-family: 'texgyrecursor';
     font-weight: normal;
     font-style: normal;
-    src: url('../Fonts/UbuntuMono-R.ttf');
+    src: url('../Fonts/TeXGyreCursor-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'ubuntu-mono';
+    font-family: 'texgyrecursor';
     font-weight: bold;
     font-style: normal;
-    src: url('../Fonts/UbuntuMono-B.ttf');
+    src: url('../Fonts/TeXGyreCursor-Bold.ttf');
 }
 
 @font-face {
-    font-family: 'ubuntu-mono';
+    font-family: 'texgyrecursor';
     font-weight: normal;
     font-style: italic;
-    src: url('../Fonts/UbuntuMono-RI.ttf');
+    src: url('../Fonts/TeXGyreCursor-Italic.ttf');
 }
 
 @font-face {
-    font-family: 'ubuntu-mono';
+    font-family: 'texgyrecursor';
     font-weight: bold;
     font-style: italic;
-    src: url('../Fonts/UbuntuMono-BI.ttf');
+    src: url('../Fonts/TeXGyreCursor-BoldItalic.ttf');
 }
 
 body {
@@ -59,7 +59,7 @@ body {
   line-height: normal;
   margin: 0;
   padding: 0;
-  font-family: "ubuntu"; 
+  font-family: "texgyrepagella"; 
   color: #000000;
 }
 
@@ -68,13 +68,13 @@ div.dedication {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 50px;
-  font-family: "ubuntu"; 
+  font-family: "texgyrepagella"; 
   font-size: 2em;
   font-style: italic;
 }
 
 h1.section {
-  font-family: "ubuntu"; 
+  font-family: "texgyrepagella"; 
   text-align: center; 
   font-weight: bold; 
   font-size: 1.33em;
@@ -87,7 +87,7 @@ h1.frontmatter-title {
   text-align: left; 
   font-weight: bold; 
   text-transform: none; 
-  font-family: "ubuntu"; 
+  font-family: "texgyrepagella"; 
   text-decoration: none;
   border-bottom: 0px; 
   font-size: 1.86em;
@@ -98,7 +98,7 @@ h1.frontmatter-title {
 
 h2.frontmatter-author {
   text-align: left; 
-  font-family: "ubuntu"; 
+  font-family: "texgyrepagella"; 
   border-bottom: 0px; 
   font-size: 1.33em;
   line-height: normal;
@@ -114,7 +114,7 @@ div.frontmatter-line {
 /*
 h2.frontmatter-author-title {
   text-align: left; 
-  font-family: "ubuntu"; 
+  font-family: "texgyrepagella"; 
   border-bottom: 0px; 
   margin-top: 2em;
   font-size: 1.49em;
@@ -123,7 +123,7 @@ h2.frontmatter-author-title {
 
 h3.frontmatter-subtitle {
   text-align: left; 
-  font-family: "ubuntu"; 
+  font-family: "texgyrepagella"; 
   border-bottom: 0px; 
   margin-top: 10mm;
   font-size: 1.49em;
@@ -132,7 +132,7 @@ h3.frontmatter-subtitle {
 */
 
 p.quote {
-  font-family: "ubuntu"; 
+  font-family: "texgyrepagella"; 
   display: block;
   font-weight: normal; 
   font-size: 1em;
@@ -144,7 +144,7 @@ p.quote {
   margin-top: 1em; 
   margin-bottom: 1em; 
   text-align: left; 
-  line-height: 14.4pt; 
+  line-height: 13pt; 
   text-transform: none; 
   text-decoration: none;
 } 
@@ -177,10 +177,10 @@ h6 {
 }
 
 h1 {
-  font-family: "ubuntu"; 
+  font-family: "texgyrepagella"; 
   font-weight: normal; 
   text-transform: none; 
-  text-align: left; 
+  text-align: center; 
   text-decoration: none;
   line-height: normal; 
   font-size: 1.33em; 
@@ -190,7 +190,7 @@ h1 {
 }
 
 h2 {
-  font-family: "ubuntu"; 
+  font-family: "texgyrepagella"; 
   font-weight: bold; 
   text-transform: none; 
   text-align: left; 
@@ -198,12 +198,12 @@ h2 {
   line-height: normal; 
   font-size: 1em; 
   /*font-size: 2.2em;*/
-  margin-top: 1.33em;
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
 h3 {
-  font-family: "ubuntu"; 
+  font-family: "texgyrepagella"; 
   font-weight: bold; 
   text-transform: none; 
   text-align: left; 
@@ -216,7 +216,7 @@ h3 {
 }
 
 h4 {
-  font-family: "ubuntu"; 
+  font-family: "texgyrepagella"; 
   font-weight: normal; 
   text-transform: none; 
   text-align: left; 
@@ -229,7 +229,7 @@ h4 {
 }
 
 h5 {
-  font-family: "ubuntu"; 
+  font-family: "texgyrepagella"; 
   font-weight: normal; 
   text-transform: none; 
   text-align: left; 
@@ -252,7 +252,7 @@ h1 + p,
 h2 + p,
 h3 + p,
 h4 + p {
-  font-family: "ubuntu"; 
+  font-family: "texgyrepagella"; 
     font-weight: normal;
     font-size: 1em; 
     line-height: 1.4em;
@@ -262,7 +262,7 @@ h4 + p {
 
 p,
 a {
-  font-family: "ubuntu"; 
+  font-family: "texgyrepagella"; 
     font-weight: normal;
     font-size: 1em; 
     line-height: 1.4em;
@@ -274,8 +274,8 @@ ul+p,
 ol+p,
 div.group_img+p,
 table+p {
-    text-indent: 0em;
-    margin-bottom: 0.7em;
+    text-indent: 1em;
+    margin-bottom: 0.15em;
 }
 
 ul,
@@ -285,7 +285,7 @@ ol {
 }
 
 li {
-    font-family: "ubuntu"; 
+    font-family: "texgyrepagella"; 
     font-weight: normal;
     font-size: 1em;
     line-height: 1.4em;
@@ -314,7 +314,7 @@ td {
 }
 
 td {
-    font-family: "ubuntu"; 
+    font-family: "texgyrepagella"; 
     font-weight: normal;
     font-size: 0.9em;
     line-height: normal;
@@ -367,7 +367,7 @@ ol.endnotes {
 }
 
 ol.endnotes li {
-  font-family: "ubuntu"; 
+  font-family: "texgyrepagella"; 
   font-weight: normal;
   font-size: 0.8em;
   line-height: 1.2em;

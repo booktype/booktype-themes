@@ -95,7 +95,7 @@ div.frontmatter-author-title {
 div.frontmatter-line {
   width: 33%;
   background-color: black;
-  height: 0.3rem; /*  */
+  height: 0rem; /*  */
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
@@ -130,7 +130,7 @@ span.mpdf_toc_t_level_1 {
 h1.chapter-h1 {
   margin-top: 0;
   padding-bottom: 0;
-  text-align: center; /*  */
+  text-align: left; /*  */
   font-weight: normal; /*  */
   font-family: "ubuntu"; /*  */
   font-size: 12pt;
