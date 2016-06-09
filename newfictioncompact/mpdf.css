@@ -265,7 +265,10 @@ p.body, p {
   text-indent: 14.4pt; 
 }
 
-blockquote, p.quote {
+.quote-before {
+  display: none;
+}
+blockquote, .quote {
   font-family: "ubuntu"; 
   display: inline;
   font-weight: normal; 

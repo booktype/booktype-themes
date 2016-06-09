@@ -265,7 +265,10 @@ p.body, p {
   text-indent: 15pt; 
 }
 
-blockquote, p.quote {
+.quote-before {
+  display: none;
+}
+blockquote, .quote {
   font-family: "roboto-light"; 
   display: inline;
   font-weight: normal; 

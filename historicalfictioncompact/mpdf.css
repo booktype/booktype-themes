@@ -265,7 +265,10 @@ p.body, p {
   text-indent: 13.2pt; 
 }
 
-blockquote, p.quote {
+.quote-before {
+  display: none;
+}
+blockquote, .quote {
   font-family: "im_fell_dw_pica_pro"; 
   display: inline;
   font-weight: normal; 
