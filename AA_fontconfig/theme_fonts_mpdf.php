@@ -1,6 +1,5 @@
-<?php
-$fontsused = array(
-// contains all fonts only once, even if used in more than one theme. 
+
+// contains all fonts used in themes once, even if used in more than one theme. 
 // NOTE: this list can be used for the mpdf font config file.
 
   "roboto" => array(
@@ -79,5 +78,3 @@ $fontsused = array(
     "I" => "TeXGyreSchola-Italic.ttf",
     "BI" => "TeXGyreSchola-BoldItalic.ttf",
   ),
-);
-?>
