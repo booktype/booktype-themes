@@ -1,5 +1,5 @@
 #contenteditor {
-  font-size: 13pt;
+  font-size: 12pt;
   line-height: normal;
   margin: 0;
   padding: 0;
@@ -56,10 +56,10 @@ p.quote:before {
     text-transform: none; 
     border-bottom: 0rem solid black;
     text-decoration: none;
-    padding-top: 39pt; 
-    margin-bottom: 39pt;
+    padding-top: 40.5pt; 
+    margin-bottom: 40.5pt;
     line-height: inherit;
-    line-height: 13pt; 
+    line-height: 13.5pt; 
 }
 
 #contenteditor h1 {
@@ -70,10 +70,10 @@ p.quote:before {
     text-transform: none; 
     border-bottom: 0rem solid black;
     text-decoration: none;
-    padding-top: 4.3pt; 
-    margin-bottom: 8.7pt;
+    padding-top: 4.5pt; 
+    margin-bottom: 9pt;
     line-height: inherit;
-    line-height: 13pt; 
+    line-height: 13.5pt; 
 }
 
 #contenteditor h2 {
@@ -84,10 +84,10 @@ p.quote:before {
     text-transform: none; 
     border-bottom: 0rem solid black;
     text-decoration: none;
-    padding-top: 17.3pt; 
-    margin-bottom: 8.7pt;
+    padding-top: 18pt; 
+    margin-bottom: 9pt;
     line-height: inherit;
-    line-height: 13pt; 
+    line-height: 13.5pt; 
 }
 
 #contenteditor h3 {
@@ -98,10 +98,10 @@ p.quote:before {
     text-transform: none; 
     border-bottom: 0rem solid black;
     text-decoration: none;
-    padding-top: 4.3pt; 
-    margin-bottom: 8.7pt;
+    padding-top: 4.5pt; 
+    margin-bottom: 9pt;
     line-height: inherit;
-    line-height: 13pt; 
+    line-height: 13.5pt; 
 }
 
 #contenteditor h4 {    
@@ -112,10 +112,10 @@ p.quote:before {
     text-transform: none; 
     border-bottom: 0rem solid black;
     text-decoration: none;
-    padding-top: 4.3pt; 
-    margin-bottom: 8.7pt;
+    padding-top: 4.5pt; 
+    margin-bottom: 9pt;
     line-height: inherit;
-    line-height: 13pt; 
+    line-height: 13.5pt; 
 }
 
 #contenteditor h5 { 
@@ -126,10 +126,10 @@ p.quote:before {
     text-transform: none; 
     border-bottom: 0rem solid black;
     text-decoration: none;
-    padding-top: 4.3pt; 
-    margin-bottom: 8.7pt;
+    padding-top: 4.5pt; 
+    margin-bottom: 9pt;
     line-height: inherit;
-    line-height: 13pt; 
+    line-height: 13.5pt; 
 }
 
 /* Paragraph Styles *****************************************************/

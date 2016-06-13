@@ -1,6 +1,6 @@
 body {
-  font-size: 10pt; 
-  line-height: 13pt; 
+  font-size: 9pt; 
+  line-height: 13.5pt; 
   margin: 0;
   padding: 0;
   color: #000000;
@@ -57,7 +57,7 @@ h1.section {
   font-family: "texgyrepagella"; 
   text-align: center; 
   font-weight: bold; 
-  font-size: 13.3pt;
+  font-size: 12pt;
   text-transform: none; 
   border-bottom: 0rem solid black;
   text-decoration: none;
@@ -74,7 +74,7 @@ div.frontmatter-half-title {
   text-transform: none; 
   font-family: "texgyrepagella"; 
   text-decoration: none;
-  font-size: 13.3pt;
+  font-size: 12pt;
 }
 
 div.frontmatter-author {
@@ -82,7 +82,7 @@ div.frontmatter-author {
   margin-top: 8rem;
   text-align: left; 
   font-family: "texgyrepagella"; 
-  font-size: 13.3pt;
+  font-size: 12pt;
 }
 
 /* FRONT MATTER (title) *****************************************************/
@@ -95,7 +95,7 @@ div.frontmatter-title {
   text-transform: none; 
   font-family: "texgyrepagella"; 
   text-decoration: none;
-  font-size: 23.3pt;
+  font-size: 21pt;
 }
 
 div.frontmatter-subtitle {
@@ -104,7 +104,7 @@ div.frontmatter-subtitle {
   font-weight: normal;
   text-align: left; 
   font-family: "texgyrepagella"; 
-  font-size: 16.6pt;
+  font-size: 14.9pt;
 }
 
 div.frontmatter-author-title {
@@ -114,7 +114,7 @@ div.frontmatter-author-title {
   margin-bottom: 0;
   text-align: left; 
   font-family: "texgyrepagella"; 
-  font-size: 16.6pt;
+  font-size: 14.9pt;
 }
 
 div.frontmatter-line {
@@ -158,10 +158,10 @@ h1.chapter-h1 {
   text-align: center; 
   font-weight: normal; 
   font-family: "texgyrepagella"; 
-  font-size: 13.3pt;
-  padding-top: 39pt; 
-  margin-bottom: 39pt; 
-  line-height: 13pt; 
+  font-size: 12pt;
+  padding-top: 40.5pt; 
+  margin-bottom: 40.5pt; 
+  line-height: 13.5pt; 
   text-transform: none; 
   border-bottom: 0rem solid black;
   text-decoration: none;
@@ -173,10 +173,10 @@ h1.body-h1 {
   text-align: left; 
   font-weight: bold; 
   font-family: "texgyrepagella"; 
-  font-size: 10pt;
-  padding-top: 8.7pt; 
-  margin-bottom: 4.3pt; 
-  line-height: 13pt; 
+  font-size: 9pt;
+  padding-top: 9pt; 
+  margin-bottom: 4.5pt; 
+  line-height: 13.5pt; 
   text-transform: none; 
   border-bottom: 0rem solid black;
   text-decoration: none;
@@ -188,10 +188,10 @@ h2.body-h2 {
   text-align: left; 
   font-weight: bold; 
   font-family: "texgyrepagella"; 
-  font-size: 10pt;
-  padding-top: 8.7pt; 
-  margin-bottom: 4.3pt; 
-  line-height: 13pt; 
+  font-size: 9pt;
+  padding-top: 9pt; 
+  margin-bottom: 4.5pt; 
+  line-height: 13.5pt; 
   text-transform: none; 
   border-bottom: 0rem solid black;
   text-decoration: none;
@@ -203,10 +203,10 @@ h3.body-h3 {
   text-align: left; 
   font-weight: bold; 
   font-family: "texgyrepagella"; 
-  font-size: 10pt;
-  padding-top: 8.7pt; 
-  margin-bottom: 4.3pt; 
-  line-height: 13pt; 
+  font-size: 9pt;
+  padding-top: 9pt; 
+  margin-bottom: 4.5pt; 
+  line-height: 13.5pt; 
   text-transform: none; 
   border-bottom: 0rem solid black;
   text-decoration: none;
@@ -218,10 +218,10 @@ h4.body-h4 {
   text-align: left; 
   font-weight: normal; 
   font-family: "texgyrepagella"; 
-  font-size: 10pt;
-  padding-top: 8.7pt; 
-  margin-bottom: 4.3pt; 
-  line-height: 13pt; 
+  font-size: 9pt;
+  padding-top: 9pt; 
+  margin-bottom: 4.5pt; 
+  line-height: 13.5pt; 
   text-transform: none; 
   border-bottom: 0rem solid black;
   text-decoration: none;
@@ -233,10 +233,10 @@ h5.body-h5 {
   text-align: left; 
   font-weight: normal; 
   font-family: "texgyrepagella"; 
-  font-size: 10pt;
-  padding-top: 8.7pt; 
-  margin-bottom: 4.3pt; 
-  line-height: 13pt; 
+  font-size: 9pt;
+  padding-top: 9pt; 
+  margin-bottom: 4.5pt; 
+  line-height: 13.5pt; 
   text-transform: none; 
   border-bottom: 0rem solid black;
   text-decoration: none;
@@ -262,7 +262,7 @@ p.body, p {
   padding: 0;
   margin-top: 0;
   margin-bottom: 0pt; 
-  text-indent: 13pt; 
+  text-indent: 13.5pt; 
 }
 
 .quote-before {
@@ -272,41 +272,41 @@ blockquote, .quote {
   font-family: "texgyrepagella"; 
   display: inline;
   font-weight: normal; 
-  font-size: 10pt;
+  font-size: 9pt;
   font-style: italic;
   text-indent: 0;
   border-left: 0rem solid #fff;
   padding-left: 0rem;
-  margin-left: 13pt;
-  margin-top: 13pt; 
-  margin-bottom: 13pt; 
+  margin-left: 13.5pt;
+  margin-top: 13.5pt; 
+  margin-bottom: 13.5pt; 
   text-align: left; 
-  line-height: 13pt; 
+  line-height: 13.5pt; 
   text-transform: none; 
   text-decoration: none;
 }
 /* Lists ****************************************************************/
 ul, ol {
-  line-height: 13pt; 
-  margin-top: 13pt; 
-  margin-bottom: 13pt; 
+  line-height: 13.5pt; 
+  margin-top: 13.5pt; 
+  margin-bottom: 13.5pt; 
 }
 li {
   padding: 0;
   margin: 0;
-  line-height: 13pt; 
+  line-height: 13.5pt; 
 }
 /* TABLE *****************************************************************/
 table {
   border-collapse: collapse;
   max-width: 100%;
-  margin-top: 13pt; 
-  margin-bottom: 13pt; 
+  margin-top: 13.5pt; 
+  margin-bottom: 13.5pt; 
 }
 
 caption {
   font-style: italic;
-  margin-top: 13pt; 
+  margin-top: 13.5pt; 
 }
 
 table, th, td {
@@ -320,9 +320,9 @@ pre {
   padding-bottom: 0;
   padding-top: 0;
   font-family: "texgyrecursor"; 
-  line-height: 13pt; 
-  margin-top: 13pt; 
-  margin-bottom: 13pt; 
+  line-height: 13.5pt; 
+  margin-top: 13.5pt; 
+  margin-bottom: 13.5pt; 
 }
 /* ENDNOTES **********************************************************/
 .endnote {

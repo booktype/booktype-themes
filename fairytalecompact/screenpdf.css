@@ -1,6 +1,6 @@
 body {
-  font-size: 10pt; /*  */
-  line-height: 13pt; /*  */
+  font-size: 9pt; /*  */
+  line-height: 13.5pt; /*  */
   margin: 0;
   padding: 0;
   color: #000000;
@@ -133,10 +133,10 @@ h1.chapter-h1 {
   text-align: center; /*  */
   font-weight: normal; /*  */
   font-family: "texgyrepagella"; /*  */
-  font-size: 13.3pt;
-  padding-top: 39pt; 
-  margin-bottom: 39pt; /*  */
-  line-height: 13pt; 
+  font-size: 12pt;
+  padding-top: 40.5pt; 
+  margin-bottom: 40.5pt; /*  */
+  line-height: 13.5pt; 
 }
 
 h1.body-h1 {
@@ -145,10 +145,10 @@ h1.body-h1 {
   text-align: left; /*  */
   font-weight: bold; /*  */
   font-family: "texgyrepagella"; /*  */
-  font-size: 10pt;
-  padding-top: 8.7pt; 
-  margin-bottom: 4.3pt; /*  */
-  line-height: 13pt; 
+  font-size: 9pt;
+  padding-top: 9pt; 
+  margin-bottom: 4.5pt; /*  */
+  line-height: 13.5pt; 
 }
 
 h2.body-h2 {
@@ -157,10 +157,10 @@ h2.body-h2 {
   text-align: left; /*  */
   font-weight: bold; /*  */
   font-family: "texgyrepagella"; /*  */
-  font-size: 10pt;
-  padding-top: 8.7pt; 
-  margin-bottom: 4.3pt; /*  */
-  line-height: 13pt; 
+  font-size: 9pt;
+  padding-top: 9pt; 
+  margin-bottom: 4.5pt; /*  */
+  line-height: 13.5pt; 
 }
 
 h3.body-h3 {
@@ -169,10 +169,10 @@ h3.body-h3 {
   text-align: left; /*  */
   font-weight: bold; /*  */
   font-family: "texgyrepagella"; /*  */
-  font-size: 10pt;
-  padding-top: 8.7pt; 
-  margin-bottom: 4.3pt; /*  */
-  line-height: 13pt; 
+  font-size: 9pt;
+  padding-top: 9pt; 
+  margin-bottom: 4.5pt; /*  */
+  line-height: 13.5pt; 
 }
 
 h4.body-h4 {
@@ -181,10 +181,10 @@ h4.body-h4 {
   text-align: left; /*  */
   font-weight: normal; /*  */
   font-family: "texgyrepagella"; /*  */
-  font-size: 10pt;
-  padding-top: 8.7pt; 
-  margin-bottom: 4.3pt; /*  */
-  line-height: 13pt; 
+  font-size: 9pt;
+  padding-top: 9pt; 
+  margin-bottom: 4.5pt; /*  */
+  line-height: 13.5pt; 
 }
 
 h5.body-h5 {
@@ -193,10 +193,10 @@ h5.body-h5 {
   text-align: left; /*  */
   font-weight: normal; /*  */
   font-family: "texgyrepagella"; /*  */
-  font-size: 10pt;
-  padding-top: 8.7pt; 
-  margin-bottom: 4.3pt; /*  */
-  line-height: 13pt; 
+  font-size: 9pt;
+  padding-top: 9pt; 
+  margin-bottom: 4.5pt; /*  */
+  line-height: 13.5pt; 
 }
 
 p.body-first {
@@ -212,7 +212,7 @@ p.body, p {
   padding: 0;
   margin-top: 0;
   margin-bottom: 0pt; /*  */
-  text-indent: 13pt; /*  */
+  text-indent: 13.5pt; /*  */
 }
 
 blockquote, p.quote {
@@ -225,33 +225,33 @@ blockquote, p.quote {
   padding-left: 1rem;
   margin-top: 0pt; /*  */
   margin-bottom: 0pt; /*  */
-  margin-top: 13pt; /*  */
-  margin-bottom: 13pt; /*  */
+  margin-top: 13.5pt; /*  */
+  margin-bottom: 13.5pt; /*  */
 }
 /* Lists ****************************************************************/
 ul, ol {
   padding-bottom: 0;
   padding-top: 0;
   margin-top: 0;
-  line-height: 13pt; /*  */
+  line-height: 13.5pt; /*  */
   margin-bottom: 0pt; /*  */
 }
 li {
   padding: 0;
   margin: 0;
-  line-height: 13pt; /*  */
+  line-height: 13.5pt; /*  */
 }
 /* TABLE *****************************************************************/
 table {
   border-collapse: collapse;
   width: 100%;
-  padding-top: 13pt; /*  */
-  margin-bottom: 13pt; /*  */
+  padding-top: 13.5pt; /*  */
+  margin-bottom: 13.5pt; /*  */
 }
 
 caption {
   font-style: italic;
-  margin-top: 13pt; /*  */
+  margin-top: 13.5pt; /*  */
 }
 
 table, th, td {
@@ -262,8 +262,8 @@ th, td {
 }
 /* PREFORMATTED ******************************************************/
 pre {
-  font-size: 10pt; /*  */
-  line-height: 13pt; /*  */
+  font-size: 9pt; /*  */
+  line-height: 13.5pt; /*  */
   padding-top: 0;
   margin-top: 0;
   padding-top: 0pt; /*  */
