@@ -50,7 +50,7 @@ p.quote:before {
 
 #contenteditor .aloha-block-TitleBlock h1 {
     font-family: "roboto-light";
-    font-size: 35pt;
+    font-size: 2.33em;
     text-align: left; 
     font-weight: normal; 
     text-transform: uppercase; 
@@ -64,7 +64,7 @@ p.quote:before {
 
 #contenteditor h1 {
     font-family: "roboto-light";
-    font-size: 27.9pt;
+    font-size: 2.13em;
     text-align: left; 
     font-weight: normal; 
     text-transform: none; 
@@ -78,7 +78,7 @@ p.quote:before {
 
 #contenteditor h2 {
     font-family: "roboto-light";
-    font-size: 21pt;
+    font-size: 1.6em;
     text-align: left; 
     font-weight: normal; 
     text-transform: uppercase; 
@@ -92,7 +92,7 @@ p.quote:before {
 
 #contenteditor h3 {
     font-family: "roboto-light";
-    font-size: 14pt;
+    font-size: 1.33em;
     text-align: left; 
     font-weight: normal; 
     text-transform: uppercase; 
@@ -106,7 +106,7 @@ p.quote:before {
 
 #contenteditor h4 {    
     font-family: "roboto-light";
-    font-size: 14pt;
+    font-size: 1.33em;
     text-align: left; 
     font-weight: normal; 
     text-transform: none; 
@@ -120,7 +120,7 @@ p.quote:before {
 
 #contenteditor h5 { 
     font-family: "roboto-light";
-    font-size: 10.5pt;
+    font-size: 1em;
     text-align: left; 
     font-weight: normal; 
     text-transform: none; 

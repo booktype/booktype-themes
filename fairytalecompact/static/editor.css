@@ -50,7 +50,7 @@ p.quote:before {
 
 #contenteditor .aloha-block-TitleBlock h1 {
     font-family: "texgyrepagella";
-    font-size: 13.3pt;
+    font-size: 1.33em;
     text-align: center; 
     font-weight: normal; 
     text-transform: none; 
@@ -64,7 +64,7 @@ p.quote:before {
 
 #contenteditor h1 {
     font-family: "texgyrepagella";
-    font-size: 10pt;
+    font-size: 1em;
     text-align: left; 
     font-weight: bold; 
     text-transform: none; 
@@ -78,7 +78,7 @@ p.quote:before {
 
 #contenteditor h2 {
     font-family: "texgyrepagella";
-    font-size: 10pt;
+    font-size: 1em;
     text-align: left; 
     font-weight: bold; 
     text-transform: none; 
@@ -92,7 +92,7 @@ p.quote:before {
 
 #contenteditor h3 {
     font-family: "texgyrepagella";
-    font-size: 10pt;
+    font-size: 1em;
     text-align: left; 
     font-weight: bold; 
     text-transform: none; 
@@ -106,7 +106,7 @@ p.quote:before {
 
 #contenteditor h4 {    
     font-family: "texgyrepagella";
-    font-size: 10pt;
+    font-size: 1em;
     text-align: left; 
     font-weight: normal; 
     text-transform: none; 
@@ -120,7 +120,7 @@ p.quote:before {
 
 #contenteditor h5 { 
     font-family: "texgyrepagella";
-    font-size: 10pt;
+    font-size: 1em;
     text-align: left; 
     font-weight: normal; 
     text-transform: none; 

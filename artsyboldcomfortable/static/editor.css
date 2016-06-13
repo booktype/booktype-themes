@@ -50,7 +50,7 @@ p.quote:before {
 
 #contenteditor .aloha-block-TitleBlock h1 {
     font-family: "dejavusans";
-    font-size: 43.3pt;
+    font-size: 2.6em;
     text-align: left; 
     font-weight: normal; 
     text-transform: uppercase; 
@@ -64,7 +64,7 @@ p.quote:before {
 
 #contenteditor h1 {
     font-family: "dejavusans";
-    font-size: 43.3pt;
+    font-size: 2.6em;
     text-align: left; 
     font-weight: normal; 
     text-transform: uppercase; 
@@ -78,7 +78,7 @@ p.quote:before {
 
 #contenteditor h2 {
     font-family: "dejavusans";
-    font-size: 23.3pt;
+    font-size: 1.86em;
     text-align: left; 
     font-weight: normal; 
     text-transform: uppercase; 
@@ -92,7 +92,7 @@ p.quote:before {
 
 #contenteditor h3 {
     font-family: "dejavusans";
-    font-size: 23.3pt;
+    font-size: 1.86em;
     text-align: left; 
     font-weight: normal; 
     text-transform: uppercase; 
@@ -106,7 +106,7 @@ p.quote:before {
 
 #contenteditor h4 {    
     font-family: "dejavusans";
-    font-size: 16.6pt;
+    font-size: 1.49em;
     text-align: left; 
     font-weight: normal; 
     text-transform: uppercase; 
@@ -120,7 +120,7 @@ p.quote:before {
 
 #contenteditor h5 { 
     font-family: "dejavusans";
-    font-size: 16.6pt;
+    font-size: 1.49em;
     text-align: left; 
     font-weight: normal; 
     text-transform: uppercase; 
