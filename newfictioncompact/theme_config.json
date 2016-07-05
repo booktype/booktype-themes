@@ -12,7 +12,7 @@
     "BodyFontSize": "9pt",
     "BodyLineHeight": "1.6",
     "BodyTextAlign": "left",
-    "BodyParagraphIndent": "true",
+    "BodyParagraphIndent": "1",
     "BodyParagraphSpacing": "none",
     "PreformattedFontFamily": "ubuntu-mono",
     "PreformattedPadding": "0-top:0-bottom",

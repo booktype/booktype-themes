@@ -246,8 +246,13 @@ ul+p,
 ol+p,
 div.group_img+p,
 table+p {
-    text-indent: 1em;
+    text-indent: 2em;
     margin-bottom: 0.15em;
+}
+
+p.hanging {
+  text-indent: -2em;
+  padding-left: 2em;
 }
 
 ul,

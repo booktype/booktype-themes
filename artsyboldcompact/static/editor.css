@@ -170,7 +170,11 @@ p.quote:before {
     text-indent: 1em;
     margin-bottom: 0.18em;
 }
-
+/* Hanging paragraph: first line not indented, rest of paragraph indented */
+#contenteditor p.hanging {
+  text-indent: -1em;
+  padding-left: 1em;
+}
 /* Lists *****************************************************************/
 #contenteditor ul,
 #contenteditor ol {

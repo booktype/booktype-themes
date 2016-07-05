@@ -264,6 +264,11 @@ table+p {
     margin-bottom: 0.15em;
 }
 
+p.hanging {
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
 ul,
 ol {
     margin-top: 10px;

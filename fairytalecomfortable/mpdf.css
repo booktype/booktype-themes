@@ -152,6 +152,11 @@ span.mpdf_toc_t_level_1 {
 }
 /* Body styling ************************************************************/
 
+/* dropcaps*/
+.dropcap {
+  font-size: 45pt;
+}
+
 h1.chapter-h1 {
   margin-top: 0;
   padding-bottom: 0;
@@ -242,29 +247,32 @@ h5.body-h5 {
   text-decoration: none;
 }
 
-p.body-first {
+p {
   font-weight: normal;
-  text-indent: 0;
   padding: 0;
   margin-top: 0;
   margin-bottom: 13.5pt; 
 }
-p:first-child:first-letter{
-    float:left;
-    margin-top:7px;
-    font-size:70px;
-    margin-right:5px;
-    color:#3D3529;
-    }
-
-p.body, p {
-  font-weight: normal;
-  padding: 0;
-  margin-top: 0;
+p.body-first {
+  text-indent: 0;
+  margin-bottom: 13.5pt; 
+}
+p.body {
   margin-bottom: 13.5pt; 
   text-indent: 0pt; 
 }
-
+p.hanging {
+  margin-bottom: 13.5pt; 
+  text-indent: -27pt;
+  padding-left: 27pt;
+}
+p:first-child:first-letter{
+  float:left;
+  margin-top:7px;
+  font-size:70px;
+  margin-right:5px;
+  color:#3D3529;
+}
 .quote-before {
   display: none;
 }

@@ -23,7 +23,7 @@
   border-left: 0rem solid #000;
   padding-left: 0em;
   padding-top: 0em;
-  margin-left: 1em;
+  margin-left: 2em;
   margin-top: 1em;
   margin-bottom: 1em;
   text-transform: none; 
@@ -167,10 +167,14 @@ p.quote:before {
 #contenteditor div.group_img+p,
 #contenteditor div.aloha-table+p {
     margin-top: 0;
-    text-indent: 1em;
+    text-indent: 2em;
     margin-bottom: 0.18em;
 }
-
+/* Hanging paragraph: first line not indented, rest of paragraph indented */
+#contenteditor p.hanging {
+  text-indent: -2em;
+  padding-left: 2em;
+}
 /* Lists *****************************************************************/
 #contenteditor ul,
 #contenteditor ol {

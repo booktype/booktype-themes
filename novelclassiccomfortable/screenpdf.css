@@ -1,10 +1,10 @@
 body {
-  font-size: 10pt; /*  */
-  line-height: 13pt; /*  */
+  font-size: 10pt; 
+  line-height: 13pt; 
   margin: 0;
   padding: 0;
   color: #000000;
-  font-family: "texgyreschola"; /*  */
+  font-family: "texgyreschola"; 
   text-align: justify;
 }
 
@@ -19,83 +19,108 @@ body {
   font-weight: bold;
 }
 
+/* Header ********************************************************************/
 .header-text {
-  font-size: 0.8rem; /*  */
-  border-bottom: 0rem solid black; /*  */
+  font-family: "texgyreschola"; 
+  font-size: 0.8rem; 
+  border-bottom: 0rem solid black; 
+}
+.header-left {
+  text-align: %HeaderLeftAlignVal%;
+  display: none;
+}
+.header-right {
+  text-align: %HeaderRightAlignVal%;
+  display: none;
 }
 
+/* Footer ********************************************************************/
 .footer-text {
-  font-size: 1rem; /*  */
-  border-top: 0rem solid black; /*  */
+  font-family: "texgyreschola"; 
+  font-size: 1rem; 
+  border-top: 0rem solid black; 
+}
+.footer-left {
+  text-align: center;
+  display: block;
+}
+.footer-right {
+  text-align: center;
+  display: block;
 }
 
 /* SECTIONS (or parts, as they are called in LaTeX) */
 h1.section {
-  font-weight: bold;
-  font-size: 3rem;
-  text-align: left;
-  margin-top: 0;
   line-height: inherit;
   padding-top: 40%;
-  font-family: "texgyreschola"; /*  */
+  margin-top: 0;
+  font-family: "texgyreschola"; 
+  text-align: center; 
+  font-weight: bold; 
+  font-size: 13.3pt;
+  text-transform: none; 
+  border-bottom: 0rem solid black;
+  text-decoration: none;
 }
 
 /* FRONT MATTER (half-title) **********************************************/
 div.frontmatter-half-title {
   page: frontmatter;
-  font-size: 2rem;
-  line-height: 100%;
-  padding-top: 30%;
+  line-height: 110%;
+  padding-top: 40%;
   margin-bottom: 0;
-  font-weight: bold; /*  */
-  text-align: left; /*  */
-  text-transform: none; /*  */
-  font-family: "texgyreschola"; /*  */
+  font-weight: bold; 
+  text-align: left; 
+  text-transform: none; 
+  font-family: "texgyreschola"; 
+  text-decoration: none;
+  font-size: 13.3pt;
 }
 
 div.frontmatter-author {
   font-weight: normal;
-  font-size: 2rem;
   margin-top: 8rem;
-  text-align: left; /*  */
-  font-family: "texgyreschola"; /*  */
+  text-align: left; 
+  font-family: "texgyreschola"; 
+  font-size: 13.3pt;
 }
 
 /* FRONT MATTER (title) *****************************************************/
 div.frontmatter-title {
-  font-size: 3rem;
-  line-height: 100%;
+  line-height: 110%;
   padding-top: 30%;
   margin-bottom: 0;
-  text-align: left; /*  */
-  font-weight: bold; /*  */
-  text-transform: none; /*  */
-  font-family: "texgyreschola"; /*  */
+  text-align: left; 
+  font-weight: bold; 
+  text-transform: none; 
+  font-family: "texgyreschola"; 
+  text-decoration: none;
+  font-size: 23.3pt;
 }
 
 div.frontmatter-subtitle {
-  font-size: 2rem;
-  line-height: 100%;
+  line-height: 110%;
   margin-top: 4rem;
   font-weight: normal;
-  text-align: left; /*  */
-  font-family: "texgyreschola"; /*  */
+  text-align: left; 
+  font-family: "texgyreschola"; 
+  font-size: 16.6pt;
 }
 
 div.frontmatter-author-title {
-  font-size: 2rem;
   line-height: 100%;
   font-weight: normal;
   margin-top: 6rem;
   margin-bottom: 0;
-  text-align: left; /*  */
-  font-family: "texgyreschola"; /*  */
+  text-align: left; 
+  font-family: "texgyreschola"; 
+  font-size: 16.6pt;
 }
 
 div.frontmatter-line {
   width: 33%;
   background-color: black;
-  height: 0.3rem; /*  */
+  height: 0.3rem; 
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
@@ -104,19 +129,19 @@ div.frontmatter-line {
   font-weight: normal;
   margin-top: 3rem;
   font-size: 1rem;
-  line-height: 100%;
-  text-align: left; /*  */
-  font-family: "texgyreschola"; /*  */
+  line-height: inherit;
+  text-align: left; 
+  font-family: "texgyreschola"; 
 }
 
 /* Table of contents ****************************************/
 div.mpdf_toc {
   font-size: 1rem;
-  font-family: "texgyreschola"; /*  */
+  font-family: "texgyreschola"; 
 }
 
 span.mpdf_toc_t_level_0 {
-  font-weight: bold; /*  */
+  font-weight: bold; 
   text-transform: none;
 }
 
@@ -127,131 +152,169 @@ span.mpdf_toc_t_level_1 {
 }
 /* Body styling ************************************************************/
 
+/* dropcaps*/
+.dropcap {
+  font-size: 43.3pt;
+}
+
 h1.chapter-h1 {
   margin-top: 0;
   padding-bottom: 0;
-  text-align: center; /*  */
-  font-weight: normal; /*  */
-  font-family: "texgyreschola"; /*  */
+  text-align: center; 
+  font-weight: normal; 
+  font-family: "texgyreschola"; 
   font-size: 13.3pt;
   padding-top: 39pt; 
-  margin-bottom: 39pt; /*  */
+  margin-bottom: 39pt; 
   line-height: 13pt; 
+  text-transform: none; 
+  border-bottom: 0rem solid black;
+  text-decoration: none;
 }
 
 h1.body-h1 {
   margin-top: 0;
   padding-bottom: 0;
-  text-align: left; /*  */
-  font-weight: bold; /*  */
-  font-family: "texgyreschola"; /*  */
+  text-align: left; 
+  font-weight: bold; 
+  font-family: "texgyreschola"; 
   font-size: 10pt;
   padding-top: 4.3pt; 
-  margin-bottom: 8.7pt; /*  */
+  margin-bottom: 8.7pt; 
   line-height: 13pt; 
+  text-transform: none; 
+  border-bottom: 0rem solid black;
+  text-decoration: none;
 }
 
 h2.body-h2 {
   margin-top: 0;
   padding-bottom: 0;
-  text-align: left; /*  */
-  font-weight: bold; /*  */
-  font-family: "texgyreschola"; /*  */
+  text-align: left; 
+  font-weight: bold; 
+  font-family: "texgyreschola"; 
   font-size: 10pt;
   padding-top: 17.3pt; 
-  margin-bottom: 8.7pt; /*  */
+  margin-bottom: 8.7pt; 
   line-height: 13pt; 
+  text-transform: none; 
+  border-bottom: 0rem solid black;
+  text-decoration: none;
 }
 
 h3.body-h3 {
   margin-top: 0;
   padding-bottom: 0;
-  text-align: left; /*  */
-  font-weight: bold; /*  */
-  font-family: "texgyreschola"; /*  */
+  text-align: left; 
+  font-weight: bold; 
+  font-family: "texgyreschola"; 
   font-size: 10pt;
   padding-top: 4.3pt; 
-  margin-bottom: 8.7pt; /*  */
+  margin-bottom: 8.7pt; 
   line-height: 13pt; 
+  text-transform: none; 
+  border-bottom: 0rem solid black;
+  text-decoration: none;
 }
 
 h4.body-h4 {
   margin-top: 0;
   padding-bottom: 0;
-  text-align: left; /*  */
-  font-weight: normal; /*  */
-  font-family: "texgyreschola"; /*  */
+  text-align: left; 
+  font-weight: normal; 
+  font-family: "texgyreschola"; 
   font-size: 10pt;
   padding-top: 4.3pt; 
-  margin-bottom: 8.7pt; /*  */
+  margin-bottom: 8.7pt; 
   line-height: 13pt; 
+  text-transform: none; 
+  border-bottom: 0rem solid black;
+  text-decoration: none;
 }
 
 h5.body-h5 {
   margin-top: 0;
   padding-bottom: 0;
-  text-align: left; /*  */
-  font-weight: normal; /*  */
-  font-family: "texgyreschola"; /*  */
+  text-align: left; 
+  font-weight: normal; 
+  font-family: "texgyreschola"; 
   font-size: 10pt;
   padding-top: 4.3pt; 
-  margin-bottom: 8.7pt; /*  */
+  margin-bottom: 8.7pt; 
   line-height: 13pt; 
+  text-transform: none; 
+  border-bottom: 0rem solid black;
+  text-decoration: none;
 }
 
+p {
+  font-weight: normal;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 13pt; 
+}
 p.body-first {
-  font-weight: normal;
   text-indent: 0;
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 13pt; /*  */
+  margin-bottom: 13pt; 
 }
-
-p.body, p {
-  font-weight: normal;
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 13pt; /*  */
-  text-indent: 0pt; /*  */
+p.body {
+  margin-bottom: 13pt; 
+  text-indent: 0pt; 
 }
-
-blockquote, p.quote {
+p.hanging {
+  margin-bottom: 13pt; 
+  text-indent: -26pt;
+  padding-left: 26pt;
+}
+p:first-child:first-letter{
+  float:left;
+  margin-top:7px;
+  font-size:70px;
+  margin-right:5px;
+  color:#3D3529;
+}
+.quote-before {
+  display: none;
+}
+blockquote, .quote {
+  font-family: "texgyreschola"; 
   display: inline;
-  font-weight: normal;
-  font-size: 1rem;
+  font-weight: normal; 
+  font-size: 10pt;
   font-style: italic;
   text-indent: 0;
-  border-left: 0.5rem solid #ccc;
-  padding-left: 1rem;
-  margin-top: 13pt; /*  */
-  margin-bottom: 13pt; /*  */
-  margin-top: 13pt; /*  */
-  margin-bottom: 13pt; /*  */
+  border-left: 0rem solid #fff;
+  padding-left: 0rem;
+  margin-left: 13pt;
+  margin-top: 13pt; 
+  margin-bottom: 13pt; 
+  text-align: left; 
+  line-height: 13pt; 
+  text-transform: none; 
+  text-decoration: none;
 }
 /* Lists ****************************************************************/
 ul, ol {
-  padding-bottom: 0;
-  padding-top: 0;
-  margin-top: 0;
-  line-height: 13pt; /*  */
-  margin-bottom: 13pt; /*  */
+  line-height: 13pt; 
+  margin-top: 13pt; 
+  margin-bottom: 13pt; 
 }
 li {
   padding: 0;
   margin: 0;
-  line-height: 13pt; /*  */
+  line-height: 13pt; 
 }
 /* TABLE *****************************************************************/
 table {
   border-collapse: collapse;
-  width: 100%;
-  padding-top: 13pt; /*  */
-  margin-bottom: 13pt; /*  */
+  max-width: 100%;
+  margin-top: 13pt; 
+  margin-bottom: 13pt; 
 }
 
 caption {
   font-style: italic;
-  margin-top: 13pt; /*  */
+  margin-top: 13pt; 
 }
 
 table, th, td {
@@ -262,13 +325,12 @@ th, td {
 }
 /* PREFORMATTED ******************************************************/
 pre {
-  font-size: 10pt; /*  */
-  line-height: 13pt; /*  */
+  padding-bottom: 0;
   padding-top: 0;
-  margin-top: 0;
-  padding-top: 13pt; /*  */
-  margin-bottom: 13pt; /*  */
-  font-family: "texgyrecursor"; /*  */
+  font-family: "texgyrecursor"; 
+  line-height: 13pt; 
+  margin-top: 13pt; 
+  margin-bottom: 13pt; 
 }
 /* ENDNOTES **********************************************************/
 .endnote {
@@ -289,7 +351,7 @@ ol.endnotes li {
 
 /* DEDICATION  ***********************************************************/
 div.dedication {
-  padding-top: 30%;
+  padding-top: 30Val%;
 }
 
 p.dedication {
@@ -299,13 +361,13 @@ p.dedication {
   font-size: 1.3rem;
   line-height: 1.5rem;
   display: inline; 
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 7rem;
+  margin-right: 7rem;
 }
 
 /* IMAGE (plus captions) ************************************************/
 img, div.image {
-  max-width: 100%;
+  max-width: 100Val%;
   height: auto;
   margin: 0px auto;
 }

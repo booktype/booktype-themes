@@ -12,7 +12,7 @@
     "BodyFontSize": "11pt",
     "BodyLineHeight": "1.2",
     "BodyTextAlign": "justify",
-    "BodyParagraphIndent": "true",
+    "BodyParagraphIndent": "1",
     "BodyParagraphSpacing": "none",
     "PreformattedFontFamily": "texgyrecursor",
     "PreformattedPadding": "0-top:0-bottom",
