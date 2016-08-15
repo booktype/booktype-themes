@@ -50,6 +50,12 @@
     "I" => "TeXGyreAdventor-Italic.ttf",
     "BI" => "TeXGyreAdventor-BoldItalic.ttf",
   ),
+  "sourcesanspro" => array(
+    "R" => "SourceSansPro-Regular.ttf",
+    "B" => "SourceSansPro-Bold.ttf",
+    "I" => "SourceSansPro-Italic.ttf",
+    "BI" => "SourceSansPro-BoldItalic.ttf",
+  ),
   "ubuntu" => array(
     "R" => "Ubuntu-R.ttf",
     "B" => "Ubuntu-B.ttf",

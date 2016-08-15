@@ -3,7 +3,8 @@ $fontsused = array(
 // contains all fonts for all themes in one file. 
 // WARNING: there are doubles if the same font is used in more than one theme.
 
-/* 'Academic (Compact)' Version 0.1 theme fonts */
+/* Theme 'Academic (Compact)' Version 0.2 update: 2016-08-15T09:49:10+02:00 */
+
         "roboto" => array(
           'R' => "Roboto-Regular.ttf",
           'B' => "Roboto-Bold.ttf",
@@ -22,7 +23,8 @@ $fontsused = array(
           'I' => "RobotoCondensed-Italic.ttf",
           'BI' => "RobotoCondensed-BoldItalic.ttf",
         ),
-/* 'Academic (Comfortable)' Version 0.1 theme fonts */
+/* Theme 'Academic (Comfortable)' Version 0.2 update: 2016-08-15T09:49:50+02:00 */
+
         "roboto" => array(
           'R' => "Roboto-Regular.ttf",
           'B' => "Roboto-Bold.ttf",
@@ -41,7 +43,8 @@ $fontsused = array(
           'I' => "RobotoCondensed-Italic.ttf",
           'BI' => "RobotoCondensed-BoldItalic.ttf",
         ),
-/* 'Artsy Bold (Comfortable)' Version 0.1 theme fonts */
+/* Theme 'Artsy Bold (Comfortable)' Version 0.2 update: 2016-08-15T09:51:18+02:00 */
+
         "dejavusans" => array(
           'R' => "DejaVuSans.ttf",
           'B' => "DejaVuSans-Bold.ttf",
@@ -60,7 +63,8 @@ $fontsused = array(
           'I' => "Roboto-LightItalic.ttf",
           'BI' => "Roboto-Italic.ttf",
         ),
-/* 'Artsy Bold (Compact)' Version 0.1 theme fonts */
+/* Theme 'Artsy Bold (Compact)' Version 0.2 update: 2016-08-15T09:50:25+02:00 */
+
         "dejavusans" => array(
           'R' => "DejaVuSans.ttf",
           'B' => "DejaVuSans-Bold.ttf",
@@ -79,7 +83,8 @@ $fontsused = array(
           'I' => "Roboto-LightItalic.ttf",
           'BI' => "Roboto-Italic.ttf",
         ),
-/* 'Bauhaus (Comfortable)' Version 0.1 theme fonts */
+/* Theme 'Bauhaus (Comfortable)' Version 0.2 update: 2016-08-15T09:52:18+02:00 */
+
         "texgyreadventor" => array(
           'R' => "TeXGyreAdventor-Regular.ttf",
           'B' => "TeXGyreAdventor-Bold.ttf",
@@ -92,7 +97,8 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* 'Bauhaus (Compact)' Version 0.1 theme fonts */
+/* Theme 'Bauhaus (Compact)' Version 0.2 update: 2016-08-15T09:52:55+02:00 */
+
         "texgyreadventor" => array(
           'R' => "TeXGyreAdventor-Regular.ttf",
           'B' => "TeXGyreAdventor-Bold.ttf",
@@ -105,7 +111,21 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* 'Common Sense (Comfortable)' Version 0.1 theme fonts */
+/* 'BoD Artikel 1' Version 0.2 theme fonts */
+        "sourcesanspro" => array(
+          'R' => "SourceSansPro-Regular.ttf",
+          'B' => "SourceSansPro-Bold.ttf",
+          'I' => "SourceSansPro-Italic.ttf",
+          'BI' => "SourceSansPro-BoldItalic.ttf",
+        ),
+        "ubuntu-mono" => array(
+          'R' => "UbuntuMono-R.ttf",
+          'B' => "UbuntuMono-B.ttf",
+          'I' => "UbuntuMono-RI.ttf",
+          'BI' => "UbuntuMono-BI.ttf",
+        ),
+/* Theme 'Common Sense (Comfortable)' Version 0.2 update: 2016-08-15T09:53:46+02:00 */
+
         "ubuntu" => array(
           'R' => "Ubuntu-R.ttf",
           'B' => "Ubuntu-B.ttf",
@@ -124,7 +144,8 @@ $fontsused = array(
           'I' => "Ubuntu-LI.ttf",
           'BI' => "Ubuntu-MI.ttf",
         ),
-/* 'Common Sense (Compact)' Version 0.1 theme fonts */
+/* Theme 'Common Sense (Compact)' Version 0.2 update: 2016-08-15T09:54:18+02:00 */
+
         "ubuntu" => array(
           'R' => "Ubuntu-R.ttf",
           'B' => "Ubuntu-B.ttf",
@@ -143,7 +164,8 @@ $fontsused = array(
           'I' => "Ubuntu-LI.ttf",
           'BI' => "Ubuntu-MI.ttf",
         ),
-/* 'Fairy Tale (Comfortable)' Version 0.1 theme fonts */
+/* Theme 'Fairy Tale (Comfortable)' Version 0.2 update: 2016-08-15T09:55:43+02:00 */
+
         "texgyrepagella" => array(
           'R' => "TeXGyrePagella-Regular.ttf",
           'B' => "TeXGyrePagella-Bold.ttf",
@@ -156,7 +178,8 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* 'Fairy Tale (Compact)' Version 0.1 theme fonts */
+/* Theme 'Fairy Tale (Compact)' Version 0.2 update: 2016-08-15T09:56:23+02:00 */
+
         "texgyrepagella" => array(
           'R' => "TeXGyrePagella-Regular.ttf",
           'B' => "TeXGyrePagella-Bold.ttf",
@@ -169,7 +192,8 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* 'Historical Fiction (Comfortable)' Version 0.1 theme fonts */
+/* Theme 'Historical Fiction (Comfortable)' Version 0.1 update: 2016-08-15T09:57:20+02:00 */
+
         "im_fell_dw_pica_pro" => array(
           'R' => "IM_FELL_DW_Pica_PRO_Roman.ttf",
           'I' => "IM_FELL_DW_Pica_PRO_Italic.ttf",
@@ -180,7 +204,8 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* 'Historical Fiction (Compact)' Version 0.1 theme fonts */
+/* Theme 'Historical Fiction (Compact)' Version 0.1 update: 2016-08-15T09:58:10+02:00 */
+
         "im_fell_dw_pica_pro" => array(
           'R' => "IM_FELL_DW_Pica_PRO_Roman.ttf",
           'I' => "IM_FELL_DW_Pica_PRO_Italic.ttf",
@@ -191,7 +216,8 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* 'Modern Report (Comfortable)' Version 0.2 theme fonts */
+/* Theme 'Modern Report (Comfortable)' Version 0.2 update: 2016-08-15T09:59:00+02:00 */
+
         "roboto" => array(
           'R' => "Roboto-Regular.ttf",
           'B' => "Roboto-Bold.ttf",
@@ -210,7 +236,8 @@ $fontsused = array(
           'I' => "Roboto-LightItalic.ttf",
           'BI' => "Roboto-Italic.ttf",
         ),
-/* 'Modern Report (Compact)' Version 0.2 theme fonts */
+/* Theme 'Modern Report (Compact)' Version 0.2 update: 2016-08-15T09:59:41+02:00 */
+
         "roboto" => array(
           'R' => "Roboto-Regular.ttf",
           'B' => "Roboto-Bold.ttf",
@@ -229,7 +256,8 @@ $fontsused = array(
           'I' => "Roboto-LightItalic.ttf",
           'BI' => "Roboto-Italic.ttf",
         ),
-/* 'New Fiction (Comfortable)' Version 0.1 theme fonts */
+/* Theme 'New Fiction (Comfortable)' Version 0.1 update: 2016-08-15T10:00:18+02:00 */
+
         "ubuntu" => array(
           'R' => "Ubuntu-R.ttf",
           'B' => "Ubuntu-B.ttf",
@@ -242,7 +270,8 @@ $fontsused = array(
           'I' => "UbuntuMono-RI.ttf",
           'BI' => "UbuntuMono-BI.ttf",
         ),
-/* 'New Fiction (Compact)' Version 0.1 theme fonts */
+/* Theme 'New Fiction (Compact)' Version 0.1 update: 2016-08-15T10:00:45+02:00 */
+
         "ubuntu" => array(
           'R' => "Ubuntu-R.ttf",
           'B' => "Ubuntu-B.ttf",
@@ -255,7 +284,8 @@ $fontsused = array(
           'I' => "UbuntuMono-RI.ttf",
           'BI' => "UbuntuMono-BI.ttf",
         ),
-/* 'Novel Classic (Comfortable)' Version 0.1 theme fonts */
+/* Theme 'Novel Classic (Comfortable)' Version 0.1 update: 2016-08-15T10:01:35+02:00 */
+
         "texgyreschola" => array(
           'R' => "TeXGyreSchola-Regular.ttf",
           'B' => "TeXGyreSchola-Bold.ttf",
@@ -268,7 +298,8 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* 'Novel Classic (Compact)' Version 0.1 theme fonts */
+/* Theme 'Novel Classic (Compact)' Version 0.1 update: 2016-08-15T10:37:03+02:00 */
+
         "texgyreschola" => array(
           'R' => "TeXGyreSchola-Regular.ttf",
           'B' => "TeXGyreSchola-Bold.ttf",
@@ -281,14 +312,16 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* 'Typewriter (Comfortable)' Version 0.1 theme fonts */
+/* Theme 'Typewriter (Comfortable)' Version 0.1 update: 2016-08-15T10:39:16+02:00 */
+
         "texgyrecursor" => array(
           'R' => "TeXGyreCursor-Regular.ttf",
           'B' => "TeXGyreCursor-Bold.ttf",
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* 'Typewriter (Compact)' Version 0.1 theme fonts */
+/* Theme 'Typewriter (Compact)' Version 0.1 update: 2016-08-15T10:40:06+02:00 */
+
         "texgyrecursor" => array(
           'R' => "TeXGyreCursor-Regular.ttf",
           'B' => "TeXGyreCursor-Bold.ttf",

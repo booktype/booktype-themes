@@ -1,4 +1,5 @@
-/* 'Modern Report (Comfortable)' Version 0.2 theme fonts */
+/* Theme 'Modern Report (Comfortable)' Version 0.2 update: 2016-08-15T09:59:00+02:00 */
+
         "roboto" => array(
           'R' => "Roboto-Regular.ttf",
           'B' => "Roboto-Bold.ttf",

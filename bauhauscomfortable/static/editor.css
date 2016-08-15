@@ -1,3 +1,4 @@
+/* Theme 'Bauhaus (Comfortable)' Version 0.2 update: 2016-08-15T09:52:18+02:00 */
 #contenteditor {
   font-size: 13pt;
   line-height: normal;
@@ -20,7 +21,7 @@
   text-align: left; 
   text-indent: 0;
   line-height: inherit; 
-  border-left: 0.05rem solid #000;
+  border-left: 0.05em solid #000;
   padding-left: 2em;
   padding-top: 0em;
   margin-left: 1em;
@@ -84,8 +85,8 @@ p.quote:before {
     text-transform: none; 
     border-bottom: 0.05rem solid black;
     text-decoration: none;
-    padding-top: 5pt; 
-    margin-bottom: 10pt;
+    padding-top: 4.95pt; 
+    margin-bottom: 10.05pt;
     line-height: inherit;
     line-height: 30pt; 
 }
@@ -98,8 +99,8 @@ p.quote:before {
     text-transform: none; 
     border-bottom: 0rem solid black;
     text-decoration: none;
-    padding-top: 5pt; 
-    margin-bottom: 10pt;
+    padding-top: 4.95pt; 
+    margin-bottom: 10.05pt;
     line-height: inherit;
     line-height: 15pt; 
 }
@@ -112,8 +113,8 @@ p.quote:before {
     text-transform: none; 
     border-bottom: 0rem solid black;
     text-decoration: none;
-    padding-top: 5pt; 
-    margin-bottom: 10pt;
+    padding-top: 4.95pt; 
+    margin-bottom: 10.05pt;
     line-height: inherit;
     line-height: 15pt; 
 }
@@ -126,8 +127,8 @@ p.quote:before {
     text-transform: none; 
     border-bottom: 0rem solid black;
     text-decoration: none;
-    padding-top: 5pt; 
-    margin-bottom: 10pt;
+    padding-top: 4.95pt; 
+    margin-bottom: 10.05pt;
     line-height: inherit;
     line-height: 15pt; 
 }
@@ -175,6 +176,43 @@ p.quote:before {
   text-indent: -2em;
   padding-left: 2em;
 }
+
+/* Info Box ****************************************************/
+#contenteditor .bk-box {
+  font-family: "texgyreadventor"; 
+  font-size: 0.9em; 
+  color: #000000;
+  background-color: #ffffff;
+  padding-bottom: 1em; 
+  margin-top: 1em; 
+  margin-bottom: 1em; 
+  border-left: 0.5pt solid #000000;
+  border-top: 0.5pt solid #000000;
+  border-right: 0.5pt solid #000000;
+  border-bottom: 0.5pt solid #000000; 
+}
+#contenteditor .bk-box p {
+  padding: 0 1em;
+  text-indent: 0em;
+  margin-bottom: 0;
+}
+#contenteditor .bk-box .box-caption {
+  color: #000000;
+  font-weight: bold;
+  background-color: #ffffff;
+  padding: 1em;
+  border-bottom: 0.5pt solid #000000; 
+  margin-bottom: 1em;
+}
+/* if p tag inside caption, this is needed */
+#contenteditor .bk-box .box-caption p {
+  padding: 0em;
+  font-weight: bold;
+}
+#contenteditor .bk-box .box-caption span.icon-trash {
+  color: #000000;
+}
+
 /* Lists *****************************************************************/
 #contenteditor ul,
 #contenteditor ol {
@@ -245,14 +283,15 @@ p.quote:before {
   text-align: center;
 }
 
-#contenteditor caption {
-  font-style: italic;
-  margin-top: 1em;
-}
-
-#contenteditor .caption_small {
+#contenteditor caption, 
+#contenteditor .caption_small, 
+#contenteditor .caption_table,
+#contenteditor .caption_img, 
+#contenteditor .caption_fig, 
+#contenteditor .caption_image, 
+#contenteditor .caption_figure {
   margin-top: 0.5em;
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-style: italic;
 }
 

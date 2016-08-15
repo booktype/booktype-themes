@@ -1,4 +1,5 @@
-/* 'Common Sense (Compact)' Version 0.1 theme fonts */
+/* Theme 'Common Sense (Compact)' Version 0.2 update: 2016-08-15T09:54:18+02:00 */
+
         "ubuntu" => array(
           'R' => "Ubuntu-R.ttf",
           'B' => "Ubuntu-B.ttf",

@@ -1,4 +1,5 @@
-/* 'New Fiction (Comfortable)' Version 0.1 theme fonts */
+/* Theme 'New Fiction (Comfortable)' Version 0.1 update: 2016-08-15T10:00:18+02:00 */
+
         "ubuntu" => array(
           'R' => "Ubuntu-R.ttf",
           'B' => "Ubuntu-B.ttf",

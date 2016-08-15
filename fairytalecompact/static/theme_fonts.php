@@ -1,4 +1,5 @@
-/* 'Fairy Tale (Compact)' Version 0.1 theme fonts */
+/* Theme 'Fairy Tale (Compact)' Version 0.2 update: 2016-08-15T09:56:23+02:00 */
+
         "texgyrepagella" => array(
           'R' => "TeXGyrePagella-Regular.ttf",
           'B' => "TeXGyrePagella-Bold.ttf",

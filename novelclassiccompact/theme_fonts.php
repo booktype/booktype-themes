@@ -1,4 +1,5 @@
-/* 'Novel Classic (Compact)' Version 0.1 theme fonts */
+/* Theme 'Novel Classic (Compact)' Version 0.1 update: 2016-08-15T10:37:03+02:00 */
+
         "texgyreschola" => array(
           'R' => "TeXGyreSchola-Regular.ttf",
           'B' => "TeXGyreSchola-Bold.ttf",
