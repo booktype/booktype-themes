@@ -3,7 +3,7 @@ $fontsused = array(
 // contains all fonts for all themes in one file. 
 // WARNING: there are doubles if the same font is used in more than one theme.
 
-/* Theme 'Academic (Compact)' Version 0.2 update: 2016-08-15T09:49:10+02:00 */
+/* Theme 'Academic (Compact)' Version 0.2 update: 2016-08-24T13:51:23+02:00 */
 
         "roboto" => array(
           'R' => "Roboto-Regular.ttf",
@@ -23,7 +23,7 @@ $fontsused = array(
           'I' => "RobotoCondensed-Italic.ttf",
           'BI' => "RobotoCondensed-BoldItalic.ttf",
         ),
-/* Theme 'Academic (Comfortable)' Version 0.2 update: 2016-08-15T09:49:50+02:00 */
+/* Theme 'Academic (Comfortable)' Version 0.2 update: 2016-08-24T13:52:15+02:00 */
 
         "roboto" => array(
           'R' => "Roboto-Regular.ttf",
@@ -43,7 +43,7 @@ $fontsused = array(
           'I' => "RobotoCondensed-Italic.ttf",
           'BI' => "RobotoCondensed-BoldItalic.ttf",
         ),
-/* Theme 'Artsy Bold (Comfortable)' Version 0.2 update: 2016-08-15T09:51:18+02:00 */
+/* Theme 'Artsy Bold (Comfortable)' Version 0.2 update: 2016-08-24T13:52:29+02:00 */
 
         "dejavusans" => array(
           'R' => "DejaVuSans.ttf",
@@ -63,7 +63,7 @@ $fontsused = array(
           'I' => "Roboto-LightItalic.ttf",
           'BI' => "Roboto-Italic.ttf",
         ),
-/* Theme 'Artsy Bold (Compact)' Version 0.2 update: 2016-08-15T09:50:25+02:00 */
+/* Theme 'Artsy Bold (Compact)' Version 0.2 update: 2016-08-24T13:52:46+02:00 */
 
         "dejavusans" => array(
           'R' => "DejaVuSans.ttf",
@@ -83,7 +83,7 @@ $fontsused = array(
           'I' => "Roboto-LightItalic.ttf",
           'BI' => "Roboto-Italic.ttf",
         ),
-/* Theme 'Bauhaus (Comfortable)' Version 0.2 update: 2016-08-15T09:52:18+02:00 */
+/* Theme 'Bauhaus (Comfortable)' Version 0.2 update: 2016-08-24T13:53:01+02:00 */
 
         "texgyreadventor" => array(
           'R' => "TeXGyreAdventor-Regular.ttf",
@@ -97,7 +97,7 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* Theme 'Bauhaus (Compact)' Version 0.2 update: 2016-08-15T09:52:55+02:00 */
+/* Theme 'Bauhaus (Compact)' Version 0.2 update: 2016-08-24T13:53:13+02:00 */
 
         "texgyreadventor" => array(
           'R' => "TeXGyreAdventor-Regular.ttf",
@@ -111,7 +111,8 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* 'BoD Artikel 1' Version 0.2 theme fonts */
+/* Theme 'BoD Artikel 1' Version 0.2 update: 2016-08-24T13:53:28+02:00 */
+
         "sourcesanspro" => array(
           'R' => "SourceSansPro-Regular.ttf",
           'B' => "SourceSansPro-Bold.ttf",
@@ -124,7 +125,7 @@ $fontsused = array(
           'I' => "UbuntuMono-RI.ttf",
           'BI' => "UbuntuMono-BI.ttf",
         ),
-/* Theme 'Common Sense (Comfortable)' Version 0.2 update: 2016-08-15T09:53:46+02:00 */
+/* Theme 'Common Sense (Comfortable)' Version 0.2 update: 2016-08-24T13:53:41+02:00 */
 
         "ubuntu" => array(
           'R' => "Ubuntu-R.ttf",
@@ -144,7 +145,7 @@ $fontsused = array(
           'I' => "Ubuntu-LI.ttf",
           'BI' => "Ubuntu-MI.ttf",
         ),
-/* Theme 'Common Sense (Compact)' Version 0.2 update: 2016-08-15T09:54:18+02:00 */
+/* Theme 'Common Sense (Compact)' Version 0.2 update: 2016-08-24T13:53:57+02:00 */
 
         "ubuntu" => array(
           'R' => "Ubuntu-R.ttf",
@@ -164,7 +165,7 @@ $fontsused = array(
           'I' => "Ubuntu-LI.ttf",
           'BI' => "Ubuntu-MI.ttf",
         ),
-/* Theme 'Fairy Tale (Comfortable)' Version 0.2 update: 2016-08-15T09:55:43+02:00 */
+/* Theme 'Fairy Tale (Comfortable)' Version 0.2 update: 2016-08-24T13:54:12+02:00 */
 
         "texgyrepagella" => array(
           'R' => "TeXGyrePagella-Regular.ttf",
@@ -178,7 +179,7 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* Theme 'Fairy Tale (Compact)' Version 0.2 update: 2016-08-15T09:56:23+02:00 */
+/* Theme 'Fairy Tale (Compact)' Version 0.2 update: 2016-08-24T13:54:25+02:00 */
 
         "texgyrepagella" => array(
           'R' => "TeXGyrePagella-Regular.ttf",
@@ -192,7 +193,7 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* Theme 'Historical Fiction (Comfortable)' Version 0.1 update: 2016-08-15T09:57:20+02:00 */
+/* Theme 'Historical Fiction (Comfortable)' Version 0.1 update: 2016-08-24T13:54:40+02:00 */
 
         "im_fell_dw_pica_pro" => array(
           'R' => "IM_FELL_DW_Pica_PRO_Roman.ttf",
@@ -204,7 +205,7 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* Theme 'Historical Fiction (Compact)' Version 0.1 update: 2016-08-15T09:58:10+02:00 */
+/* Theme 'Historical Fiction (Compact)' Version 0.1 update: 2016-08-24T13:54:54+02:00 */
 
         "im_fell_dw_pica_pro" => array(
           'R' => "IM_FELL_DW_Pica_PRO_Roman.ttf",
@@ -216,7 +217,7 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* Theme 'Modern Report (Comfortable)' Version 0.2 update: 2016-08-15T09:59:00+02:00 */
+/* Theme 'Modern Report (Comfortable)' Version 0.2 update: 2016-08-24T13:55:07+02:00 */
 
         "roboto" => array(
           'R' => "Roboto-Regular.ttf",
@@ -236,7 +237,7 @@ $fontsused = array(
           'I' => "Roboto-LightItalic.ttf",
           'BI' => "Roboto-Italic.ttf",
         ),
-/* Theme 'Modern Report (Compact)' Version 0.2 update: 2016-08-15T09:59:41+02:00 */
+/* Theme 'Modern Report (Compact)' Version 0.2 update: 2016-08-24T13:55:20+02:00 */
 
         "roboto" => array(
           'R' => "Roboto-Regular.ttf",
@@ -256,7 +257,7 @@ $fontsused = array(
           'I' => "Roboto-LightItalic.ttf",
           'BI' => "Roboto-Italic.ttf",
         ),
-/* Theme 'New Fiction (Comfortable)' Version 0.1 update: 2016-08-15T10:00:18+02:00 */
+/* Theme 'New Fiction (Comfortable)' Version 0.1 update: 2016-08-24T13:55:33+02:00 */
 
         "ubuntu" => array(
           'R' => "Ubuntu-R.ttf",
@@ -270,7 +271,7 @@ $fontsused = array(
           'I' => "UbuntuMono-RI.ttf",
           'BI' => "UbuntuMono-BI.ttf",
         ),
-/* Theme 'New Fiction (Compact)' Version 0.1 update: 2016-08-15T10:00:45+02:00 */
+/* Theme 'New Fiction (Compact)' Version 0.1 update: 2016-08-24T13:55:46+02:00 */
 
         "ubuntu" => array(
           'R' => "Ubuntu-R.ttf",
@@ -284,7 +285,7 @@ $fontsused = array(
           'I' => "UbuntuMono-RI.ttf",
           'BI' => "UbuntuMono-BI.ttf",
         ),
-/* Theme 'Novel Classic (Comfortable)' Version 0.1 update: 2016-08-15T10:01:35+02:00 */
+/* Theme 'Novel Classic (Comfortable)' Version 0.1 update: 2016-08-24T13:56:00+02:00 */
 
         "texgyreschola" => array(
           'R' => "TeXGyreSchola-Regular.ttf",
@@ -298,7 +299,7 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* Theme 'Novel Classic (Compact)' Version 0.1 update: 2016-08-15T10:37:03+02:00 */
+/* Theme 'Novel Classic (Compact)' Version 0.1 update: 2016-08-24T13:56:13+02:00 */
 
         "texgyreschola" => array(
           'R' => "TeXGyreSchola-Regular.ttf",
@@ -312,7 +313,7 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* Theme 'Typewriter (Comfortable)' Version 0.1 update: 2016-08-15T10:39:16+02:00 */
+/* Theme 'Typewriter (Comfortable)' Version 0.1 update: 2016-08-24T13:56:25+02:00 */
 
         "texgyrecursor" => array(
           'R' => "TeXGyreCursor-Regular.ttf",
@@ -320,7 +321,7 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* Theme 'Typewriter (Compact)' Version 0.1 update: 2016-08-15T10:40:06+02:00 */
+/* Theme 'Typewriter (Compact)' Version 0.1 update: 2016-08-24T13:56:40+02:00 */
 
         "texgyrecursor" => array(
           'R' => "TeXGyreCursor-Regular.ttf",

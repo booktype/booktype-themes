@@ -1,4 +1,4 @@
-/* Theme 'Artsy Bold (Comfortable)' Version 0.2 update: 2016-08-15T09:51:18+02:00 */
+/* Theme 'Artsy Bold (Comfortable)' Version 0.2 update: 2016-08-24T13:52:29+02:00 */
 @font-face {
     font-family: 'dejavusans';
     font-weight: normal;
@@ -448,6 +448,7 @@ ol.endnotes li {
   margin: 0;
 }
 
-ol.endnotes p {
+ol.endnotes p,
+ol.endnotes li p {
   text-indent: 0;
 }
