@@ -1,4 +1,4 @@
-/* Theme 'Historical Fiction (Compact)' Version 0.1 update: 2016-08-24T13:54:54+02:00 */
+/* Theme 'Historical Fiction (Compact)' Version 0.1 update: 2016-10-29T10:01:21+02:00 */
 #contenteditor {
   font-size: 13pt;
   line-height: normal;
@@ -143,6 +143,7 @@ p.quote:before {
 
 #contenteditor p {
     font-family: "im_fell_dw_pica_pro";
+    text-align: justify;
     font-weight: normal;
     font-size: inherit;
     line-height: inherit;

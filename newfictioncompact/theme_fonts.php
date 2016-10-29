@@ -1,4 +1,4 @@
-/* Theme 'New Fiction (Compact)' Version 0.1 update: 2016-08-24T13:55:46+02:00 */
+/* Theme 'New Fiction (Compact)' Version 0.1 update: 2016-10-29T10:01:55+02:00 */
 
         "ubuntu" => array(
           'R' => "Ubuntu-R.ttf",

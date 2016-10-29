@@ -1,4 +1,4 @@
-/* Theme 'New Fiction (Comfortable)' Version 0.1 update: 2016-08-24T13:55:33+02:00 */
+/* Theme 'New Fiction (Comfortable)' Version 0.1 update: 2016-10-29T10:01:43+02:00 */
 body {
   font-size: 9pt; 
   line-height: 14.4pt; 
@@ -29,14 +29,14 @@ body {
 .header-text {
   font-family: "ubuntu"; 
   font-size: 0.8em; 
-  border-bottom: 0rem solid black; 
+  border-bottom: 0em solid black; 
 }
 .header-left {
-  text-align: %HeaderLeftAlignVal%;
+  text-align: right;
   display: none;
 }
 .header-right {
-  text-align: %HeaderRightAlignVal%;
+  text-align: left;
   display: none;
 }
 
@@ -44,7 +44,7 @@ body {
 .footer-text {
   font-family: "ubuntu"; 
   font-size: 1em; 
-  border-top: 0rem solid black; 
+  border-top: 0em solid black; 
 }
 .footer-left {
   text-align: center;
@@ -247,7 +247,7 @@ div.toc-title
 }
 .bk-box p {
   padding: 0 0.5em;
-  text-indent: 0ptem;
+  text-indent: 0em;
   margin-bottom: 0;
 }
 .bk-box .box-caption {
@@ -368,18 +368,18 @@ p {
   font-weight: normal;
   padding: 0;
   margin-top: 0;
-  margin-bottom: 14.4pt; 
+  margin-bottom: one-linept; 
 }
 p.body-first {
   text-indent: 0;
-  margin-bottom: 14.4pt; 
+  margin-bottom: one-linept; 
 }
 p.body {
-  margin-bottom: 14.4pt; 
-  text-indent: 0pt; 
+  margin-bottom: one-linept; 
+  text-indent: %BodyParagraphIndentPtVal%; 
 }
 p.hanging {
-  margin-bottom: 14.4pt; 
+  margin-bottom: one-linept; 
   text-indent: -28.8pt;
   padding-left: 28.8pt;
 }

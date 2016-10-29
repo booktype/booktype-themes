@@ -1,4 +1,4 @@
-/* Theme 'Modern Report (Compact)' Version 0.2 update: 2016-08-24T13:55:20+02:00 */
+/* Theme 'Modern Report (Compact)' Version 0.2 update: 2016-10-29T10:01:36+02:00 */
 body {
   font-size: 10.5pt; 
   line-height: 14.7pt; 
@@ -29,7 +29,7 @@ body {
 .header-text {
   font-family: "roboto"; 
   font-size: 0.8em; 
-  border-bottom: 0rem solid black; 
+  border-bottom: 0em solid black; 
 }
 .header-left {
   text-align: left;
@@ -44,7 +44,7 @@ body {
 .footer-text {
   font-family: "roboto"; 
   font-size: 1em; 
-  border-top: 0rem solid black; 
+  border-top: 0em solid black; 
 }
 .footer-left {
   text-align: left;
@@ -247,7 +247,7 @@ div.toc-title
 }
 .bk-box p {
   padding: 0 0.5em;
-  text-indent: 0ptem;
+  text-indent: 0em;
   margin-bottom: 0;
 }
 .bk-box .box-caption {
@@ -368,20 +368,20 @@ p {
   font-weight: normal;
   padding: 0;
   margin-top: 0;
-  margin-bottom: 0pt; 
+  margin-bottom: nonept; 
 }
 p.body-first {
   text-indent: 0;
-  margin-bottom: 0pt; 
+  margin-bottom: nonept; 
 }
 p.body {
-  margin-bottom: 0pt; 
-  text-indent: 14.7pt; 
+  margin-bottom: nonept; 
+  text-indent: 14.7; 
 }
 p.hanging {
-  margin-bottom: 0pt; 
-  text-indent: -14.7pt;
-  padding-left: 14.7pt;
+  margin-bottom: nonept; 
+  text-indent: -14.7;
+  padding-left: 14.7;
 }
 p.quote:first-child:first-letter{
   float:left;

@@ -1,4 +1,4 @@
-/* Theme 'Novel Classic (Comfortable)' Version 0.1 update: 2016-08-24T13:56:00+02:00 */
+/* Theme 'Novel Classic (Comfortable)' Version 0.1 update: 2016-10-29T10:02:03+02:00 */
 
         "texgyreschola" => array(
           'R' => "TeXGyreSchola-Regular.ttf",

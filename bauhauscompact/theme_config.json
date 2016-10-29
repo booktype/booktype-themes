@@ -5,7 +5,18 @@
         "themeversion": "0.2",
         "themedescription": "A theme for catalogues and elegant texts. Works best for mid sized books. The compact theme uses line indents and has no spacing between paragraphs.",
         "themeauthor": "Micz Flor",
-        "themedate": "11th August 2016"
+        "themedate": "11th August 2016",
+        "html4mpdf": "mpdf-body.html",
+        "frontmatterhtml4mpdf": "frontmatter_themesample.html",
+        "htmlsample4mpdf": "mpdf-body_themesample.html",
+        "css4mpdf": "mpdf.css",
+        "css4mpdfgeneric": "genericprint.css",
+        "css4bodprint": "bod_mpdf-UNIVERSAL.css",
+        "html4princexml": "xyz_pdfreactor-body-idea.html",
+        "css4princexml": "princexml.css",
+        "html4pdfreactor": "xyz_pdfreactor-body-idea.html",
+        "css4pdfreactor": "pdfreactor.css",
+        "css4pdfreactorgeneric": "genericprint.css"
     },
     "PageDefinition": "bauhaus__170_x_220_mm",
     "BodyFontFamily": "texgyreadventor",
@@ -210,5 +221,5 @@
     "BodyHeader5LineHeight": "1",
     "BodyHeader5Padding": "1-top:1-bottom",
     "ChapterDatelineTextDecoration": "none",
-    "last_update": "2016-08-24T13:53:13+02:00"
+    "last_update": "2016-10-29T10:00:20+02:00"
 }

@@ -1,4 +1,4 @@
-/* Theme 'Bauhaus (Compact)' Version 0.2 update: 2016-08-24T13:53:13+02:00 */
+/* Theme 'Bauhaus (Compact)' Version 0.2 update: 2016-10-29T10:00:20+02:00 */
 
 @font-face {
     font-family: 'texgyreadventor';
@@ -6,42 +6,49 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'texgyreadventor';
     src: url('fonts/TeXGyreAdventor-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'texgyreadventor';
     src: url('fonts/TeXGyreAdventor-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
+
 @font-face {
     font-family: 'texgyreadventor';
     src: url('fonts/TeXGyreAdventor-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
 }
+
 @font-face {
     font-family: 'texgyrecursor';
     src: url('fonts/TeXGyreCursor-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'texgyrecursor';
     src: url('fonts/TeXGyreCursor-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'texgyrecursor';
     src: url('fonts/TeXGyreCursor-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
+
 @font-face {
     font-family: 'texgyrecursor';
     src: url('fonts/TeXGyreCursor-BoldItalic.ttf') format('truetype');

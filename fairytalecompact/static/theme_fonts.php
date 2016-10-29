@@ -1,4 +1,4 @@
-/* Theme 'Fairy Tale (Compact)' Version 0.2 update: 2016-08-24T13:54:25+02:00 */
+/* Theme 'Fairy Tale (Compact)' Version 0.2 update: 2016-10-29T10:01:05+02:00 */
 
         "texgyrepagella" => array(
           'R' => "TeXGyrePagella-Regular.ttf",

@@ -1,4 +1,4 @@
-/* Theme 'New Fiction (Compact)' Version 0.1 update: 2016-08-24T13:55:46+02:00 */
+/* Theme 'New Fiction (Compact)' Version 0.1 update: 2016-10-29T10:01:55+02:00 */
 
 @font-face {
     font-family: 'ubuntu';
@@ -6,42 +6,49 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'ubuntu';
     src: url('fonts/Ubuntu-B.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'ubuntu';
     src: url('fonts/Ubuntu-RI.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
+
 @font-face {
     font-family: 'ubuntu';
     src: url('fonts/Ubuntu-BI.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
 }
+
 @font-face {
     font-family: 'ubuntu-mono';
     src: url('fonts/UbuntuMono-R.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'ubuntu-mono';
     src: url('fonts/UbuntuMono-B.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'ubuntu-mono';
     src: url('fonts/UbuntuMono-RI.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
+
 @font-face {
     font-family: 'ubuntu-mono';
     src: url('fonts/UbuntuMono-BI.ttf') format('truetype');

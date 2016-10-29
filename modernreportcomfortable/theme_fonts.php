@@ -1,4 +1,4 @@
-/* Theme 'Modern Report (Comfortable)' Version 0.2 update: 2016-08-24T13:55:07+02:00 */
+/* Theme 'Modern Report (Comfortable)' Version 0.2 update: 2016-10-29T10:01:28+02:00 */
 
         "roboto" => array(
           'R' => "Roboto-Regular.ttf",

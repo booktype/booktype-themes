@@ -1,4 +1,4 @@
-/* Theme 'Modern Report (Compact)' Version 0.2 update: 2016-08-24T13:55:20+02:00 */
+/* Theme 'Modern Report (Compact)' Version 0.2 update: 2016-10-29T10:01:36+02:00 */
 #contenteditor {
   font-size: 13pt;
   line-height: normal;
@@ -143,6 +143,7 @@ p.quote:before {
 
 #contenteditor p {
     font-family: "roboto";
+    text-align: justify;
     font-weight: normal;
     font-size: inherit;
     line-height: inherit;

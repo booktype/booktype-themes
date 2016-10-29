@@ -5,7 +5,18 @@
         "themeversion": "0.1",
         "themedescription": "This fiction theme has a sans serif font but with a soft edge. Works well for smaller pages. No header, centered page numbers. 'Compact' means line indentations and no spacing between paragraphs.",
         "themeauthor": "Micz Flor",
-        "themedate": "1st June 2016"
+        "themedate": "1st June 2016",
+        "html4mpdf": "mpdf-body.html",
+        "frontmatterhtml4mpdf": "frontmatter_themesample.html",
+        "htmlsample4mpdf": "mpdf-body_themesample.html",
+        "css4mpdf": "mpdf.css",
+        "css4mpdfgeneric": "genericprint.css",
+        "css4bodprint": "bod_mpdf-UNIVERSAL.css",
+        "html4princexml": "xyz_pdfreactor-body-idea.html",
+        "css4princexml": "princexml.css",
+        "html4pdfreactor": "xyz_pdfreactor-body-idea.html",
+        "css4pdfreactor": "pdfreactor.css",
+        "css4pdfreactorgeneric": "genericprint.css"
     },
     "PageDefinition": "novelclassic__120_x_190_mm",
     "BodyFontFamily": "ubuntu",
@@ -210,5 +221,5 @@
     "BodyHeader5LineHeight": "1",
     "BodyHeader5Padding": "0.66-top:0.33-bottom",
     "ChapterDatelineTextDecoration": "none",
-    "last_update": "2016-08-24T13:55:46+02:00"
+    "last_update": "2016-10-29T10:01:55+02:00"
 }

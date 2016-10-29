@@ -1,4 +1,4 @@
-/* Theme 'Common Sense (Comfortable)' Version 0.2 update: 2016-08-24T13:53:42+02:00 */
+/* Theme 'Common Sense (Comfortable)' Version 0.2 update: 2016-10-29T10:00:43+02:00 */
 body {
   font-size: 9.5pt; 
   line-height: 14.25pt; 
@@ -29,7 +29,7 @@ body {
 .header-text {
   font-family: "ubuntu"; 
   font-size: 0.8em; 
-  border-bottom: 0.05rem solid black; 
+  border-bottom: 0.05em solid black; 
 }
 .header-left {
   text-align: left;
@@ -44,7 +44,7 @@ body {
 .footer-text {
   font-family: "ubuntu"; 
   font-size: 1em; 
-  border-top: 0rem solid black; 
+  border-top: 0em solid black; 
 }
 .footer-left {
   text-align: center;
@@ -247,7 +247,7 @@ div.toc-title
 }
 .bk-box p {
   padding: 0 0.5em;
-  text-indent: 0ptem;
+  text-indent: 0em;
   margin-bottom: 0;
 }
 .bk-box .box-caption {
@@ -368,18 +368,18 @@ p {
   font-weight: normal;
   padding: 0;
   margin-top: 0;
-  margin-bottom: 14.25pt; 
+  margin-bottom: one-linept; 
 }
 p.body-first {
   text-indent: 0;
-  margin-bottom: 14.25pt; 
+  margin-bottom: one-linept; 
 }
 p.body {
-  margin-bottom: 14.25pt; 
-  text-indent: 0pt; 
+  margin-bottom: one-linept; 
+  text-indent: %BodyParagraphIndentPtVal%; 
 }
 p.hanging {
-  margin-bottom: 14.25pt; 
+  margin-bottom: one-linept; 
   text-indent: -28.5pt;
   padding-left: 28.5pt;
 }

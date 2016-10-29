@@ -1,4 +1,4 @@
-/* Theme 'Fairy Tale (Comfortable)' Version 0.2 update: 2016-08-24T13:54:12+02:00 */
+/* Theme 'Fairy Tale (Comfortable)' Version 0.2 update: 2016-10-29T10:00:57+02:00 */
 
         "texgyrepagella" => array(
           'R' => "TeXGyrePagella-Regular.ttf",

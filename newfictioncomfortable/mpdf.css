@@ -1,4 +1,51 @@
-/* Theme 'New Fiction (Comfortable)' Version 0.1 update: 2016-08-24T13:55:33+02:00 */
+/* Theme 'New Fiction (Comfortable)' Version 0.1 update: 2016-10-29T10:01:43+02:00 */
+/* START mpdf specific CSS */
+
+/* Header ********************************************************************/
+.header-text {
+  font-family: "ubuntu"; 
+  font-size: 0.8em; 
+  border-bottom: 0em solid black; 
+}
+.header-left {
+  text-align: right;
+  display: none;
+}
+.header-right {
+  text-align: left;
+  display: none;
+}
+
+/* Footer ********************************************************************/
+.footer-text {
+  font-family: "ubuntu"; 
+  font-size: 1em; 
+  border-top: 0em solid black; 
+}
+.footer-left {
+  text-align: center;
+  display: block;
+}
+.footer-right {
+  text-align: center;
+  display: block;
+}
+
+/* TABLE *****************************************************************/
+/* for caption styling see images section */
+table {
+  border-collapse: collapse;
+  max-width: 100%;
+  margin-top: 14.4pt; 
+  margin-bottom: 14.4pt; 
+}
+th, td {
+  border: 0.1mm solid #000000;
+  padding: 0.6em 0.8em;
+}
+/* END mpdf specific CSS */
+/* START generic Print CSS */
+
 body {
   font-size: 9pt; 
   line-height: 14.4pt; 
@@ -6,8 +53,11 @@ body {
   padding: 0;
   color: #000000;
   font-family: "ubuntu"; 
-  text-align: justify;
   hyphens: auto;
+  -epub-hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
   widows: 2;
   orphans: 2;
 }
@@ -25,41 +75,11 @@ body {
   text-align: left;
 }
 
-/* Header ********************************************************************/
-.header-text {
-  font-family: "ubuntu"; 
-  font-size: 0.8em; 
-  border-bottom: 0rem solid black; 
-}
-.header-left {
-  text-align: %HeaderLeftAlignVal%;
-  display: none;
-}
-.header-right {
-  text-align: %HeaderRightAlignVal%;
-  display: none;
-}
-
-/* Footer ********************************************************************/
-.footer-text {
-  font-family: "ubuntu"; 
-  font-size: 1em; 
-  border-top: 0rem solid black; 
-}
-.footer-left {
-  text-align: center;
-  display: block;
-}
-.footer-right {
-  text-align: center;
-  display: block;
-}
-
 /* SECTIONS (or parts, as they are called in LaTeX) */
 h1.section {
   line-height: inherit;
-  padding-top: 40%;
   margin-top: 0;
+  padding-top: 43.2pt;
   font-family: "ubuntu"; 
   text-align: center; 
   font-weight: bold; 
@@ -90,6 +110,7 @@ div.frontmatter-author {
   text-align: left; 
   font-family: "ubuntu"; 
   font-size: 11.97pt;
+  font-weight: ; 
 }
 
 /* FRONT MATTER (title) *****************************************************/
@@ -117,19 +138,21 @@ div.frontmatter-line {
 div.frontmatter-subtitle {
   line-height: 1.1em;
   margin-bottom: 2em;
-  font-weight: normal;
   text-align: left; 
   font-family: "ubuntu"; 
   font-size: 14.94pt;
+  text-transform: ;
+  font-weight: ; 
 }
 
 div.frontmatter-author-title {
   line-height: 1.1em;
-  font-weight: normal;
   margin-bottom: 2em;
   text-align: left; 
   font-family: "ubuntu"; 
   font-size: 14.94pt;
+  text-transform: none;
+  font-weight: ; 
 }
 
 .frontmatter-bottom {
@@ -149,7 +172,7 @@ p.dedication {
   font-family: ubuntu;
   font-weight: normal;
   text-align: left;
-  font-style: italic;
+  font-style: ;
   font-size: 11.97pt;
   line-height: 1.1em;
   display: inline; 
@@ -225,6 +248,8 @@ div.toc-title
   font-family: "ubuntu"; 
   font-size: 14.94pt;
   font-weight: "bold"; 
+  font-style: ""; 
+  text-transform: ""; 
   text-align: "left"; 
   hyphens: auto;
 }
@@ -233,6 +258,7 @@ div.toc-title
 
 /* Info Box */
 .bk-box {
+  page-break-inside: avoid;
   font-family: "ubuntu"; 
   font-size: 0.9em; 
   color: #000000;
@@ -247,7 +273,7 @@ div.toc-title
 }
 .bk-box p {
   padding: 0 0.5em;
-  text-indent: 0ptem;
+  text-indent: 0pt;
   margin-bottom: 0;
 }
 .bk-box .box-caption {
@@ -269,16 +295,21 @@ div.toc-title
 }
 
 h1.chapter-h1 {
+  page-break-after: avoid;
   margin-top: 0;
-  padding-bottom: 0;
+  margin-right:%;
   color: #000000; 
   text-align: left; 
-  font-weight: normal; 
+  font-weight: normal;
+  font-style: ;  
+  font-variant: ; 
   font-family: "ubuntu"; 
   font-size: 11.97pt;
+  /*padding-bottom: 5px;*/
   padding-top: 43.2pt; 
   margin-bottom: 43.2pt; 
-  line-height: 14.4pt; 
+  line-height: 14.4pt; /**/ 
+  /*uncomment4pdfreactor_line-height: 1.1em; /**/ 
   text-transform: none; 
   border-bottom: 0rem solid #000000;
   text-decoration: none;
@@ -290,13 +321,16 @@ h1.body-h1 {
   color: #000000; 
   text-align: left; 
   font-weight: bold; 
+  font-style: ;  
+  font-variant: ; 
   font-family: "ubuntu"; 
   font-size: 9pt;
   padding-top: 4.75pt; 
-  margin-bottom: 9.65pt; 
-  line-height: 14.4pt; 
+  margin-bottom: 9.65pt; /**/
+  line-height: 14.4pt; /**/ 
+  /*uncomment4pdfreactor_line-height: 1.1em; /**/ 
   text-transform: none; 
-  border-bottom: 0rem solid black;
+  border-bottom: 0rem solid %BodyHeader1BorderBottomColorVal%;
   text-decoration: none;
 }
 
@@ -306,13 +340,16 @@ h2.body-h2 {
   color: #000000; 
   text-align: left; 
   font-weight: bold; 
+  font-style: ;  
+  font-variant: ; 
   font-family: "ubuntu"; 
   font-size: 9pt;
   padding-top: 19.15pt; 
-  margin-bottom: 9.65pt; 
-  line-height: 14.4pt; 
+  margin-bottom: 9.65pt; /**/
+  line-height: 14.4pt; /**/ 
+  /*uncomment4pdfreactor_line-height: 1.1em; /**/ 
   text-transform: none; 
-  border-bottom: 0rem solid black;
+  border-bottom: 0rem solid %BodyHeader2BorderBottomColorVal%;
   text-decoration: none;
 }
 
@@ -322,13 +359,16 @@ h3.body-h3 {
   color: #000000; 
   text-align: left; 
   font-weight: bold; 
+  font-style: ;  
+  font-variant: ; 
   font-family: "ubuntu"; 
   font-size: 9pt;
   padding-top: 4.75pt; 
-  margin-bottom: 9.65pt; 
-  line-height: 14.4pt; 
+  margin-bottom: 9.65pt; /**/
+  line-height: 14.4pt; /**/ 
+  /*uncomment4pdfreactor_line-height: 1.1em; /**/ 
   text-transform: none; 
-  border-bottom: 0rem solid black;
+  border-bottom: 0rem solid %BodyHeader3BorderBottomColorVal%;
   text-decoration: none;
 }
 
@@ -338,29 +378,37 @@ h4.body-h4 {
   color: #000000; 
   text-align: left; 
   font-weight: normal; 
+  font-style: ;  
+  font-variant: ; 
   font-family: "ubuntu"; 
   font-size: 9pt;
   padding-top: 4.75pt; 
-  margin-bottom: 9.65pt; 
-  line-height: 14.4pt; 
+  margin-bottom: 9.65pt; /**/
+  line-height: 14.4pt; /**/ 
+  /*uncomment4pdfreactor_line-height: 1.1em; /**/ 
   text-transform: none; 
-  border-bottom: 0rem solid black;
+  border-bottom: 0rem solid %BodyHeader4BorderBottomColorVal%;
   text-decoration: none;
 }
 
-h5.body-h5 {
+h5.body-h5,
+h6.body-h6,
+h6 {
   margin-top: 0;
   padding-bottom: 0;
   color: #000000; 
   text-align: left; 
   font-weight: normal; 
+  font-style: ;  
+  font-variant: ; 
   font-family: "ubuntu"; 
   font-size: 9pt;
   padding-top: 4.75pt; 
-  margin-bottom: 9.65pt; 
-  line-height: 14.4pt; 
+  margin-bottom: 9.65pt;/**/ 
+  line-height: 14.4pt; /**/ 
+  /*uncomment4pdfreactor_line-height: 1.1em; /**/ 
   text-transform: none; 
-  border-bottom: 0rem solid black;
+  border-bottom: 0rem solid %BodyHeader5BorderBottomColorVal%;
   text-decoration: none;
 }
 
@@ -368,20 +416,39 @@ p {
   font-weight: normal;
   padding: 0;
   margin-top: 0;
-  margin-bottom: 14.4pt; 
+  margin-bottom: 14.4pt; /**/ 
+  /*uncomment4pdfreactor_margin-bottom: 1em; /**/ 
 }
 p.body-first {
+  font-style: ;
   text-indent: 0;
-  margin-bottom: 14.4pt; 
+  margin-bottom: 14.4pt; /**/ 
+  /*uncomment4pdfreactor_margin-bottom: 1em; /**/ 
+  text-align: justify;
+  font-weight: normal;
 }
 p.body {
-  margin-bottom: 14.4pt; 
-  text-indent: 0pt; 
+  font-style: ;
+  margin-bottom: 14.4pt; /**/ 
+  /*uncomment4pdfreactor_margin-bottom: 1em; /**/ 
+  text-indent: %BodyParagraphIndentPtVal%; 
+  text-align: justify;
 }
 p.hanging {
-  margin-bottom: 14.4pt; 
-  text-indent: -28.8pt;
-  padding-left: 28.8pt;
+  font-style: ;
+  margin-bottom: 14.4pt; /**/ 
+  /*uncomment4pdfreactor_margin-bottom: 1em; /**/ 
+  text-indent: -28.8ptpt;
+  padding-left: 28.8ptpt;
+  text-align: justify;
+}
+p.noindent {
+  font-style: ;
+  margin-bottom: 14.4pt; /**/ 
+  /*uncomment4pdfreactor_margin-bottom: 1em; /**/ 
+  text-indent: 0;
+  padding-left: 0;
+  text-align: justify;
 }
 p.quote:first-child:first-letter{
   float:left;
@@ -404,7 +471,7 @@ blockquote, .quote {
   padding-left: 0em;
   margin-left: 14.4pt;
   margin-top: 14.4pt; 
-  margin-bottom: 14.4pt; 
+  margin-bottom: 14.4pt; /**/
   text-align: left; 
   line-height: 14.4pt; 
   text-transform: none; 
@@ -421,18 +488,6 @@ li {
   margin: 0;
   line-height: 14.4pt; 
 }
-/* TABLE *****************************************************************/
-/* for caption styling see images section below */
-table {
-  border-collapse: collapse;
-  max-width: 100%;
-  margin-top: 14.4pt; 
-  margin-bottom: 14.4pt; 
-}
-th, td {
-  border: 0.1mm solid #000000;
-  padding: 0.6em 0.8em;
-}
 /* IMAGE (plus captions) ************************************************/
 img, div.image {
   max-width: 100%;
@@ -442,20 +497,20 @@ img, div.image {
 
 .group_img {
   page-break-inside: avoid;
-  padding-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 14.4pt;
+  margin-bottom: 14.4pt;
 }
 
 caption, 
+.caption,
 .caption_small, 
 .caption_table,
 .caption_img, 
 .caption_fig, 
 .caption_image, 
 .caption_figure {
-  margin-top: 14.4pt;
   font-size: 8.1pt;
-  line-height: 14.4pt;
+  line-height: 14.4pt; /**/
   font-style: italic;
 }
 .center {
@@ -501,6 +556,7 @@ ol.endnotes li {
 ol.endnotes li p {
   margin-bottom: 0pt; 
   text-indent: 0; 
+  text-align: left;
 }
 
 /* sub and sup formatting to keep line-height intact */
@@ -533,3 +589,5 @@ sub {
      half as far down as the superscript moved up */
   bottom: -0.25em;
 }
+
+/* END generic Print CSS */

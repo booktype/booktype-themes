@@ -5,7 +5,18 @@
         "themeversion": "0.2",
         "themedescription": "A theme for science and reporting, built on the Roboto font family. The compact theme uses line indentation and no paragraph spacing.",
         "themeauthor": "Darko Tomi\u0107, Daniel James",
-        "themedate": "11th of August 2016"
+        "themedate": "11th of August 2016",
+        "html4mpdf": "mpdf-body.html",
+        "frontmatterhtml4mpdf": "frontmatter_themesample.html",
+        "htmlsample4mpdf": "mpdf-body_themesample.html",
+        "css4mpdf": "mpdf.css",
+        "css4mpdfgeneric": "genericprint.css",
+        "css4bodprint": "bod_mpdf-UNIVERSAL.css",
+        "html4princexml": "xyz_pdfreactor-body-idea.html",
+        "css4princexml": "princexml.css",
+        "html4pdfreactor": "xyz_pdfreactor-body-idea.html",
+        "css4pdfreactor": "pdfreactor.css",
+        "css4pdfreactorgeneric": "genericprint.css"
     },
     "PageDefinition": "academic__210_x_297_mm",
     "BodyFontFamily": "roboto",
@@ -210,5 +221,5 @@
     "BodyHeader5LineHeight": "1",
     "BodyHeader5Padding": "0.66-top:0.33-bottom",
     "ChapterDatelineTextDecoration": "none",
-    "last_update": "2016-08-24T13:52:15+02:00"
+    "last_update": "2016-10-29T09:59:51+02:00"
 }
