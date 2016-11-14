@@ -1,4 +1,5 @@
-/* Theme 'Fairy Tale (Comfortable)' Version 0.2 update: 2016-10-29T10:00:57+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Fairy Tale (Comfortable)' Version 0.2 update: 2016-11-14T15:56:15+01:00 */
 
         "texgyrepagella" => array(
           'R' => "TeXGyrePagella-Regular.ttf",

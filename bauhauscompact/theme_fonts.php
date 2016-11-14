@@ -1,4 +1,5 @@
-/* Theme 'Bauhaus (Compact)' Version 0.2 update: 2016-10-29T10:00:20+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Bauhaus (Compact)' Version 0.2 update: 2016-11-14T15:55:41+01:00 */
 
         "texgyreadventor" => array(
           'R' => "TeXGyreAdventor-Regular.ttf",

@@ -1,4 +1,5 @@
-/* Theme 'Common Sense (Compact)' Version 0.2 update: 2016-10-29T10:00:50+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Common Sense (Compact)' Version 0.2 update: 2016-11-14T15:56:14+01:00 */
 
         "ubuntu" => array(
           'R' => "Ubuntu-R.ttf",

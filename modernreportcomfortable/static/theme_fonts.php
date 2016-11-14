@@ -1,4 +1,5 @@
-/* Theme 'Modern Report (Comfortable)' Version 0.2 update: 2016-10-29T10:01:28+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Modern Report (Comfortable)' Version 0.2 update: 2016-11-14T15:56:20+01:00 */
 
         "roboto" => array(
           'R' => "Roboto-Regular.ttf",

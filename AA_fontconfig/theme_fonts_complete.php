@@ -3,7 +3,8 @@ $fontsused = array(
 // contains all fonts for all themes in one file. 
 // WARNING: there are doubles if the same font is used in more than one theme.
 
-/* Theme 'Academic (Compact)' Version 0.2 update: 2016-08-24T13:51:23+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Academic (Compact)' Version 0.2 update: 2016-11-01T16:31:21+01:00 */
 
         "roboto" => array(
           'R' => "Roboto-Regular.ttf",
@@ -23,7 +24,8 @@ $fontsused = array(
           'I' => "RobotoCondensed-Italic.ttf",
           'BI' => "RobotoCondensed-BoldItalic.ttf",
         ),
-/* Theme 'Academic (Comfortable)' Version 0.2 update: 2016-08-24T13:52:15+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Academic (Comfortable)' Version 0.2 update: 2016-11-01T13:00:10+01:00 */
 
         "roboto" => array(
           'R' => "Roboto-Regular.ttf",
@@ -43,7 +45,8 @@ $fontsused = array(
           'I' => "RobotoCondensed-Italic.ttf",
           'BI' => "RobotoCondensed-BoldItalic.ttf",
         ),
-/* Theme 'Artsy Bold (Comfortable)' Version 0.2 update: 2016-08-24T13:52:29+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Artsy Bold (Comfortable)' Version 0.2 update: 2016-11-01T13:00:12+01:00 */
 
         "dejavusans" => array(
           'R' => "DejaVuSans.ttf",
@@ -63,7 +66,8 @@ $fontsused = array(
           'I' => "Roboto-LightItalic.ttf",
           'BI' => "Roboto-Italic.ttf",
         ),
-/* Theme 'Artsy Bold (Compact)' Version 0.2 update: 2016-08-24T13:52:46+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Artsy Bold (Compact)' Version 0.2 update: 2016-11-01T13:00:16+01:00 */
 
         "dejavusans" => array(
           'R' => "DejaVuSans.ttf",
@@ -83,7 +87,8 @@ $fontsused = array(
           'I' => "Roboto-LightItalic.ttf",
           'BI' => "Roboto-Italic.ttf",
         ),
-/* Theme 'Bauhaus (Comfortable)' Version 0.2 update: 2016-08-24T13:53:01+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Bauhaus (Comfortable)' Version 0.2 update: 2016-11-01T13:00:19+01:00 */
 
         "texgyreadventor" => array(
           'R' => "TeXGyreAdventor-Regular.ttf",
@@ -97,7 +102,8 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* Theme 'Bauhaus (Compact)' Version 0.2 update: 2016-08-24T13:53:13+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Bauhaus (Compact)' Version 0.2 update: 2016-11-01T13:00:21+01:00 */
 
         "texgyreadventor" => array(
           'R' => "TeXGyreAdventor-Regular.ttf",
@@ -111,7 +117,8 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* Theme 'BoD Artikel 1' Version 0.2 update: 2016-08-24T13:53:28+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'BoD Artikel 1' Version 0.3 update: 2016-11-01T13:00:24+01:00 */
 
         "sourcesanspro" => array(
           'R' => "SourceSansPro-Regular.ttf",
@@ -125,7 +132,257 @@ $fontsused = array(
           'I' => "UbuntuMono-RI.ttf",
           'BI' => "UbuntuMono-BI.ttf",
         ),
-/* Theme 'Common Sense (Comfortable)' Version 0.2 update: 2016-08-24T13:53:41+02:00 */
+        "ubuntu" => array(
+          'R' => "Ubuntu-R.ttf",
+          'B' => "Ubuntu-B.ttf",
+          'I' => "Ubuntu-RI.ttf",
+          'BI' => "Ubuntu-BI.ttf",
+        ),
+        "merriweatherserif" => array(
+          'R' => "Merriweatherserif300.ttf",
+          'B' => "Merriweatherserif700.ttf",
+          'I' => "Merriweatherserif300italic.ttf",
+          'BI' => "Merriweatherserif700italic.ttf",
+        ),
+/* Created with www.booktype.pro */
+/* Theme 'BoD Artikel 2' Version 0.1 update: 2016-11-01T13:00:27+01:00 */
+
+        "lato" => array(
+          'R' => "Lato-Regular.ttf",
+          'B' => "Lato-Bold.ttf",
+          'I' => "Lato-Italic.ttf",
+          'BI' => "Lato-BoldItalic.ttf",
+        ),
+        "ubuntu-mono" => array(
+          'R' => "UbuntuMono-R.ttf",
+          'B' => "UbuntuMono-B.ttf",
+          'I' => "UbuntuMono-RI.ttf",
+          'BI' => "UbuntuMono-BI.ttf",
+        ),
+        "merriweatherserif" => array(
+          'R' => "Merriweatherserif300.ttf",
+          'B' => "Merriweatherserif700.ttf",
+          'I' => "Merriweatherserif300italic.ttf",
+          'BI' => "Merriweatherserif700italic.ttf",
+        ),
+/* Created with www.booktype.pro */
+/* Theme 'BoD Belletristik 1' Version 0.1 update: 2016-11-01T13:00:30+01:00 */
+
+        "crimsontext" => array(
+          'R' => "CrimsonTextregular.ttf",
+          'B' => "CrimsonText700.ttf",
+          'I' => "CrimsonTextitalic.ttf",
+          'BI' => "CrimsonText700italic.ttf",
+        ),
+        "ubuntu-mono" => array(
+          'R' => "UbuntuMono-R.ttf",
+          'B' => "UbuntuMono-B.ttf",
+          'I' => "UbuntuMono-RI.ttf",
+          'BI' => "UbuntuMono-BI.ttf",
+        ),
+        "istok" => array(
+          'R' => "IstokWebregular.ttf",
+          'B' => "IstokWeb700.ttf",
+          'I' => "IstokWebitalic.ttf",
+          'BI' => "IstokWeb700italic.ttf",
+        ),
+        "merriweatherserif" => array(
+          'R' => "Merriweatherserif300.ttf",
+          'B' => "Merriweatherserif700.ttf",
+          'I' => "Merriweatherserif300italic.ttf",
+          'BI' => "Merriweatherserif700italic.ttf",
+        ),
+/* Created with www.booktype.pro */
+/* Theme 'BoD Belletristik 2' Version 0.1 update: 2016-11-01T13:01:57+01:00 */
+
+        "alegreyaserif" => array(
+          'R' => "Alegreyaregular.ttf",
+          'B' => "Alegreya700.ttf",
+          'I' => "Alegreyaitalic.ttf",
+          'BI' => "Alegreya700italic.ttf",
+        ),
+        "ubuntu-mono" => array(
+          'R' => "UbuntuMono-R.ttf",
+          'B' => "UbuntuMono-B.ttf",
+          'I' => "UbuntuMono-RI.ttf",
+          'BI' => "UbuntuMono-BI.ttf",
+        ),
+        "istok" => array(
+          'R' => "IstokWebregular.ttf",
+          'B' => "IstokWeb700.ttf",
+          'I' => "IstokWebitalic.ttf",
+          'BI' => "IstokWeb700italic.ttf",
+        ),
+        "merriweatherserif" => array(
+          'R' => "Merriweatherserif300.ttf",
+          'B' => "Merriweatherserif700.ttf",
+          'I' => "Merriweatherserif300italic.ttf",
+          'BI' => "Merriweatherserif700italic.ttf",
+        ),
+        "alegreyasans" => array(
+          'R' => "AlegreyaSansregular.ttf",
+          'B' => "AlegreyaSans700.ttf",
+          'I' => "AlegreyaSansitalic.ttf",
+          'BI' => "AlegreyaSans700italic.ttf",
+        ),
+/* Created with www.booktype.pro */
+/* Theme 'BoD Belletristik 3' Version 0.1 update: 2016-11-01T13:00:36+01:00 */
+
+        "vollkorn" => array(
+          'R' => "Vollkornregular.ttf",
+          'B' => "Vollkorn700.ttf",
+          'I' => "Vollkornitalic.ttf",
+          'BI' => "Vollkorn700italic.ttf",
+        ),
+        "ubuntu-mono" => array(
+          'R' => "UbuntuMono-R.ttf",
+          'B' => "UbuntuMono-B.ttf",
+          'I' => "UbuntuMono-RI.ttf",
+          'BI' => "UbuntuMono-BI.ttf",
+        ),
+        "merriweatherserif" => array(
+          'R' => "Merriweatherserif300.ttf",
+          'B' => "Merriweatherserif700.ttf",
+          'I' => "Merriweatherserif300italic.ttf",
+          'BI' => "Merriweatherserif700italic.ttf",
+        ),
+/* Created with www.booktype.pro */
+/* Theme 'BoD Belletristik 4' Version 0.1 update: 2016-11-01T13:00:39+01:00 */
+
+        "vollkorn" => array(
+          'R' => "Vollkornregular.ttf",
+          'B' => "Vollkorn700.ttf",
+          'I' => "Vollkornitalic.ttf",
+          'BI' => "Vollkorn700italic.ttf",
+        ),
+        "ubuntu-mono" => array(
+          'R' => "UbuntuMono-R.ttf",
+          'B' => "UbuntuMono-B.ttf",
+          'I' => "UbuntuMono-RI.ttf",
+          'BI' => "UbuntuMono-BI.ttf",
+        ),
+        "cabin" => array(
+          'R' => "Cabin700.ttf",
+          'B' => "Cabin700.ttf",
+          'I' => "Cabin700.ttf",
+          'BI' => "Cabin700.ttf",
+        ),
+        "merriweatherserif" => array(
+          'R' => "Merriweatherserif300.ttf",
+          'B' => "Merriweatherserif700.ttf",
+          'I' => "Merriweatherserif300italic.ttf",
+          'BI' => "Merriweatherserif700italic.ttf",
+        ),
+/* Created with www.booktype.pro */
+/* Theme 'BoD Belletristik 5' Version 0.1 update: 2016-11-01T13:00:42+01:00 */
+
+        "merriweathersanstext" => array(
+          'R' => "MerriweatherSans300.ttf",
+          'B' => "MerriweatherSans700.ttf",
+          'I' => "MerriweatherSans300italic.ttf",
+          'BI' => "MerriweatherSans700italic.ttf",
+        ),
+        "ubuntu-mono" => array(
+          'R' => "UbuntuMono-R.ttf",
+          'B' => "UbuntuMono-B.ttf",
+          'I' => "UbuntuMono-RI.ttf",
+          'BI' => "UbuntuMono-BI.ttf",
+        ),
+        "istok" => array(
+          'R' => "IstokWebregular.ttf",
+          'B' => "IstokWeb700.ttf",
+          'I' => "IstokWebitalic.ttf",
+          'BI' => "IstokWeb700italic.ttf",
+        ),
+        "merriweathersanshead" => array(
+          'R' => "MerriweatherSans700.ttf",
+          'B' => "MerriweatherSans800.ttf",
+          'I' => "MerriweatherSans700italic.ttf",
+          'BI' => "MerriweatherSans800italic.ttf",
+        ),
+        "merriweatherserif" => array(
+          'R' => "Merriweatherserif300.ttf",
+          'B' => "Merriweatherserif700.ttf",
+          'I' => "Merriweatherserif300italic.ttf",
+          'BI' => "Merriweatherserif700italic.ttf",
+        ),
+/* Created with www.booktype.pro */
+/* Theme 'BoD Lyrik 1' Version 0.1 update: 2016-11-01T13:00:45+01:00 */
+
+        "lora" => array(
+          'R' => "Loraregular.ttf",
+          'B' => "Lora700.ttf",
+          'I' => "Loraitalic.ttf",
+          'BI' => "Lora700italic.ttf",
+        ),
+        "ubuntu-mono" => array(
+          'R' => "UbuntuMono-R.ttf",
+          'B' => "UbuntuMono-B.ttf",
+          'I' => "UbuntuMono-RI.ttf",
+          'BI' => "UbuntuMono-BI.ttf",
+        ),
+        "merriweatherserif" => array(
+          'R' => "Merriweatherserif300.ttf",
+          'B' => "Merriweatherserif700.ttf",
+          'I' => "Merriweatherserif300italic.ttf",
+          'BI' => "Merriweatherserif700italic.ttf",
+        ),
+/* Created with www.booktype.pro */
+/* Theme 'BoD Sachbuch 1' Version 0.1 update: 2016-11-01T13:00:48+01:00 */
+
+        "crimsontext" => array(
+          'R' => "CrimsonTextregular.ttf",
+          'B' => "CrimsonText700.ttf",
+          'I' => "CrimsonTextitalic.ttf",
+          'BI' => "CrimsonText700italic.ttf",
+        ),
+        "ubuntu-mono" => array(
+          'R' => "UbuntuMono-R.ttf",
+          'B' => "UbuntuMono-B.ttf",
+          'I' => "UbuntuMono-RI.ttf",
+          'BI' => "UbuntuMono-BI.ttf",
+        ),
+        "montserrat" => array(
+          'R' => "Montserratregular.ttf",
+          'B' => "Montserrat700.ttf",
+          'I' => "Montserratregular.ttf",
+          'BI' => "Montserrat700.ttf",
+        ),
+        "merriweatherserif" => array(
+          'R' => "Merriweatherserif300.ttf",
+          'B' => "Merriweatherserif700.ttf",
+          'I' => "Merriweatherserif300italic.ttf",
+          'BI' => "Merriweatherserif700italic.ttf",
+        ),
+/* Created with www.booktype.pro */
+/* Theme 'BoD Sachbuch 2' Version 0.1 update: 2016-11-01T13:00:50+01:00 */
+
+        "alegreyasans" => array(
+          'R' => "AlegreyaSansregular.ttf",
+          'B' => "AlegreyaSans700.ttf",
+          'I' => "AlegreyaSansitalic.ttf",
+          'BI' => "AlegreyaSans700italic.ttf",
+        ),
+        "ubuntu-mono" => array(
+          'R' => "UbuntuMono-R.ttf",
+          'B' => "UbuntuMono-B.ttf",
+          'I' => "UbuntuMono-RI.ttf",
+          'BI' => "UbuntuMono-BI.ttf",
+        ),
+        "montserrat" => array(
+          'R' => "Montserratregular.ttf",
+          'B' => "Montserrat700.ttf",
+          'I' => "Montserratregular.ttf",
+          'BI' => "Montserrat700.ttf",
+        ),
+        "merriweatherserif" => array(
+          'R' => "Merriweatherserif300.ttf",
+          'B' => "Merriweatherserif700.ttf",
+          'I' => "Merriweatherserif300italic.ttf",
+          'BI' => "Merriweatherserif700italic.ttf",
+        ),
+/* Created with www.booktype.pro */
+/* Theme 'Common Sense (Comfortable)' Version 0.2 update: 2016-11-01T13:00:53+01:00 */
 
         "ubuntu" => array(
           'R' => "Ubuntu-R.ttf",
@@ -145,7 +402,8 @@ $fontsused = array(
           'I' => "Ubuntu-LI.ttf",
           'BI' => "Ubuntu-MI.ttf",
         ),
-/* Theme 'Common Sense (Compact)' Version 0.2 update: 2016-08-24T13:53:57+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Common Sense (Compact)' Version 0.2 update: 2016-11-01T13:00:56+01:00 */
 
         "ubuntu" => array(
           'R' => "Ubuntu-R.ttf",
@@ -165,7 +423,8 @@ $fontsused = array(
           'I' => "Ubuntu-LI.ttf",
           'BI' => "Ubuntu-MI.ttf",
         ),
-/* Theme 'Fairy Tale (Comfortable)' Version 0.2 update: 2016-08-24T13:54:12+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Fairy Tale (Comfortable)' Version 0.2 update: 2016-11-01T13:00:59+01:00 */
 
         "texgyrepagella" => array(
           'R' => "TeXGyrePagella-Regular.ttf",
@@ -179,7 +438,8 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* Theme 'Fairy Tale (Compact)' Version 0.2 update: 2016-08-24T13:54:25+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Fairy Tale (Compact)' Version 0.2 update: 2016-11-01T13:01:01+01:00 */
 
         "texgyrepagella" => array(
           'R' => "TeXGyrePagella-Regular.ttf",
@@ -193,7 +453,8 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* Theme 'Historical Fiction (Comfortable)' Version 0.1 update: 2016-08-24T13:54:40+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Historical Fiction (Comfortable)' Version 0.1 update: 2016-11-01T13:01:04+01:00 */
 
         "im_fell_dw_pica_pro" => array(
           'R' => "IM_FELL_DW_Pica_PRO_Roman.ttf",
@@ -205,7 +466,8 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* Theme 'Historical Fiction (Compact)' Version 0.1 update: 2016-08-24T13:54:54+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Historical Fiction (Compact)' Version 0.1 update: 2016-11-01T13:01:07+01:00 */
 
         "im_fell_dw_pica_pro" => array(
           'R' => "IM_FELL_DW_Pica_PRO_Roman.ttf",
@@ -217,7 +479,8 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* Theme 'Modern Report (Comfortable)' Version 0.2 update: 2016-08-24T13:55:07+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Modern Report (Comfortable)' Version 0.2 update: 2016-11-01T13:01:10+01:00 */
 
         "roboto" => array(
           'R' => "Roboto-Regular.ttf",
@@ -237,7 +500,8 @@ $fontsused = array(
           'I' => "Roboto-LightItalic.ttf",
           'BI' => "Roboto-Italic.ttf",
         ),
-/* Theme 'Modern Report (Compact)' Version 0.2 update: 2016-08-24T13:55:20+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Modern Report (Compact)' Version 0.2 update: 2016-11-01T13:01:12+01:00 */
 
         "roboto" => array(
           'R' => "Roboto-Regular.ttf",
@@ -257,7 +521,8 @@ $fontsused = array(
           'I' => "Roboto-LightItalic.ttf",
           'BI' => "Roboto-Italic.ttf",
         ),
-/* Theme 'New Fiction (Comfortable)' Version 0.1 update: 2016-08-24T13:55:33+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'New Fiction (Comfortable)' Version 0.1 update: 2016-11-01T13:01:15+01:00 */
 
         "ubuntu" => array(
           'R' => "Ubuntu-R.ttf",
@@ -271,7 +536,8 @@ $fontsused = array(
           'I' => "UbuntuMono-RI.ttf",
           'BI' => "UbuntuMono-BI.ttf",
         ),
-/* Theme 'New Fiction (Compact)' Version 0.1 update: 2016-08-24T13:55:46+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'New Fiction (Compact)' Version 0.1 update: 2016-11-01T13:01:18+01:00 */
 
         "ubuntu" => array(
           'R' => "Ubuntu-R.ttf",
@@ -285,7 +551,8 @@ $fontsused = array(
           'I' => "UbuntuMono-RI.ttf",
           'BI' => "UbuntuMono-BI.ttf",
         ),
-/* Theme 'Novel Classic (Comfortable)' Version 0.1 update: 2016-08-24T13:56:00+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Novel Classic (Comfortable)' Version 0.1 update: 2016-11-01T13:01:21+01:00 */
 
         "texgyreschola" => array(
           'R' => "TeXGyreSchola-Regular.ttf",
@@ -299,7 +566,8 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* Theme 'Novel Classic (Compact)' Version 0.1 update: 2016-08-24T13:56:13+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Novel Classic (Compact)' Version 0.1 update: 2016-11-01T13:01:24+01:00 */
 
         "texgyreschola" => array(
           'R' => "TeXGyreSchola-Regular.ttf",
@@ -313,7 +581,8 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* Theme 'Typewriter (Comfortable)' Version 0.1 update: 2016-08-24T13:56:25+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Typewriter (Comfortable)' Version 0.1 update: 2016-11-01T13:01:26+01:00 */
 
         "texgyrecursor" => array(
           'R' => "TeXGyreCursor-Regular.ttf",
@@ -321,7 +590,8 @@ $fontsused = array(
           'I' => "TeXGyreCursor-Italic.ttf",
           'BI' => "TeXGyreCursor-BoldItalic.ttf",
         ),
-/* Theme 'Typewriter (Compact)' Version 0.1 update: 2016-08-24T13:56:40+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Typewriter (Compact)' Version 0.1 update: 2016-11-01T13:01:29+01:00 */
 
         "texgyrecursor" => array(
           'R' => "TeXGyreCursor-Regular.ttf",

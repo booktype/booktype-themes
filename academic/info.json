@@ -1,8 +1,8 @@
 {
-  "version": "0.2",
+  "version": "0.4",
   "name": "Academic (Compact)",
   "author": "Darko Tomić, Daniel James",
-  "date": "11th of August 2016",
+  "date": "14th of November 2016",
   "output": {
     "mpdf": {
       "options": {},

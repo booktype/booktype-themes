@@ -1,4 +1,5 @@
-/* Theme 'Artsy Bold (Compact)' Version 0.2 update: 2016-10-29T10:00:06+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Artsy Bold (Compact)' Version 0.2 update: 2016-11-14T15:55:38+01:00 */
 
         "dejavusans" => array(
           'R' => "DejaVuSans.ttf",

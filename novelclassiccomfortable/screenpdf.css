@@ -1,4 +1,5 @@
-/* Theme 'Novel Classic (Comfortable)' Version 0.1 update: 2016-10-29T10:02:03+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Novel Classic (Comfortable)' Version 0.1 update: 2016-11-14T15:56:24+01:00 */
 body {
   font-size: 10pt; 
   line-height: 13pt; 
@@ -29,7 +30,7 @@ body {
 .header-text {
   font-family: "texgyreschola"; 
   font-size: 0.8em; 
-  border-bottom: 0em solid black; 
+  border-bottom: false solid black; 
 }
 .header-left {
   text-align: right;
@@ -44,7 +45,7 @@ body {
 .footer-text {
   font-family: "texgyreschola"; 
   font-size: 1em; 
-  border-top: 0em solid black; 
+  border-top: false solid black; 
 }
 .footer-left {
   text-align: center;
@@ -65,7 +66,7 @@ h1.section {
   font-weight: bold; 
   font-size: 13.3pt;
   text-transform: none; 
-  border-bottom: 0rem solid black;
+  border-bottom: none solid black;
   text-decoration: none;
 }
 
@@ -165,7 +166,7 @@ div.mpdf_toc {
 
 div.mpdf_toc_level_0 {
   font-size: 10pt;
-  font-weight: bold;
+  font-weight: %TableOfContentsTopLevelFontWeightVal%;
   text-indent: 0;
   padding: 0;
   margin: 0; 
@@ -247,7 +248,7 @@ div.toc-title
 }
 .bk-box p {
   padding: 0 0.5em;
-  text-indent: 0em;
+  text-indent: noneem;
   margin-bottom: 0;
 }
 .bk-box .box-caption {
@@ -280,7 +281,7 @@ h1.chapter-h1 {
   margin-bottom: 39pt; 
   line-height: 13pt; 
   text-transform: none; 
-  border-bottom: 0rem solid #000000;
+  border-bottom: none solid #000000;
   text-decoration: none;
 }
 
@@ -296,7 +297,7 @@ h1.body-h1 {
   margin-bottom: 8.71pt; 
   line-height: 13pt; 
   text-transform: none; 
-  border-bottom: 0rem solid black;
+  border-bottom: none solid black;
   text-decoration: none;
 }
 
@@ -312,7 +313,7 @@ h2.body-h2 {
   margin-bottom: 8.71pt; 
   line-height: 13pt; 
   text-transform: none; 
-  border-bottom: 0rem solid black;
+  border-bottom: none solid black;
   text-decoration: none;
 }
 
@@ -328,7 +329,7 @@ h3.body-h3 {
   margin-bottom: 8.71pt; 
   line-height: 13pt; 
   text-transform: none; 
-  border-bottom: 0rem solid black;
+  border-bottom: none solid black;
   text-decoration: none;
 }
 
@@ -344,7 +345,7 @@ h4.body-h4 {
   margin-bottom: 8.71pt; 
   line-height: 13pt; 
   text-transform: none; 
-  border-bottom: 0rem solid black;
+  border-bottom: none solid black;
   text-decoration: none;
 }
 
@@ -360,7 +361,7 @@ h5.body-h5 {
   margin-bottom: 8.71pt; 
   line-height: 13pt; 
   text-transform: none; 
-  border-bottom: 0rem solid black;
+  border-bottom: none solid black;
   text-decoration: none;
 }
 
@@ -376,7 +377,7 @@ p.body-first {
 }
 p.body {
   margin-bottom: one-linept; 
-  text-indent: %BodyParagraphIndentPtVal%; 
+  text-indent: 0; 
 }
 p.hanging {
   margin-bottom: one-linept; 
@@ -400,7 +401,7 @@ blockquote, .quote {
   font-size: 10pt;
   font-style: italic;
   text-indent: 0;
-  border-left: 0rem solid #fff;
+  border-left: none solid #fff;
   padding-left: 0em;
   margin-left: 13pt;
   margin-top: 13pt; 

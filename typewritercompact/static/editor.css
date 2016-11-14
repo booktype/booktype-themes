@@ -1,4 +1,5 @@
-/* Theme 'Typewriter (Compact)' Version 0.1 update: 2016-10-29T10:02:26+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Typewriter (Compact)' Version 0.1 update: 2016-11-14T15:56:27+01:00 */
 #contenteditor {
   font-size: 13pt;
   line-height: normal;
@@ -21,7 +22,7 @@
   text-align: left; 
   text-indent: 0;
   line-height: inherit; 
-  border-left: 0rem solid #000;
+  border-left: none solid #000;
   padding-left: 0em;
   padding-top: 0em;
   margin-left: 2em;
@@ -55,7 +56,7 @@ p.quote:before {
     text-align: left; 
     font-weight: bold; 
     text-transform: none; 
-    border-bottom: 0rem solid black;
+    border-bottom: none solid black;
     text-decoration: none;
     padding-top: 79.2pt; 
     margin-bottom: 39.6pt;
@@ -69,7 +70,7 @@ p.quote:before {
     text-align: left; 
     font-weight: bold; 
     text-transform: uppercase; 
-    border-bottom: 0rem solid black;
+    border-bottom: none solid black;
     text-decoration: none;
     padding-top: 39.6pt; 
     margin-bottom: 13.2pt;
@@ -83,7 +84,7 @@ p.quote:before {
     text-align: left; 
     font-weight: bold; 
     text-transform: none; 
-    border-bottom: 0rem solid black;
+    border-bottom: none solid black;
     text-decoration: none;
     padding-top: 26.4pt; 
     margin-bottom: 13.2pt;
@@ -97,7 +98,7 @@ p.quote:before {
     text-align: left; 
     font-weight: normal; 
     text-transform: none; 
-    border-bottom: 0rem solid black;
+    border-bottom: none solid black;
     text-decoration: underline;
     padding-top: 13.2pt; 
     margin-bottom: 13.2pt;
@@ -111,7 +112,7 @@ p.quote:before {
     text-align: left; 
     font-weight: normal; 
     text-transform: none; 
-    border-bottom: 0rem solid black;
+    border-bottom: none solid black;
     text-decoration: underline;
     padding-top: 13.2pt; 
     margin-bottom: 0pt;
@@ -125,7 +126,7 @@ p.quote:before {
     text-align: left; 
     font-weight: normal; 
     text-transform: none; 
-    border-bottom: 0rem solid black;
+    border-bottom: none solid black;
     text-decoration: none;
     padding-top: 13.2pt; 
     margin-bottom: 0pt;

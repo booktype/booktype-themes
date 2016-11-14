@@ -1,4 +1,5 @@
-/* Theme 'Fairy Tale (Compact)' Version 0.2 update: 2016-10-29T10:01:05+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Fairy Tale (Compact)' Version 0.2 update: 2016-11-14T15:56:16+01:00 */
 #contenteditor {
   font-size: 12pt;
   line-height: normal;
@@ -21,7 +22,7 @@
   text-align: left; 
   text-indent: 0;
   line-height: inherit; 
-  border-left: 0rem solid #fff;
+  border-left: none solid #fff;
   padding-left: 0em;
   padding-top: 0em;
   margin-left: 1em;
@@ -55,7 +56,7 @@ p.quote:before {
     text-align: center; 
     font-weight: normal; 
     text-transform: none; 
-    border-bottom: 0rem solid black;
+    border-bottom: none solid black;
     text-decoration: none;
     padding-top: 40.5pt; 
     margin-bottom: 40.5pt;
@@ -69,7 +70,7 @@ p.quote:before {
     text-align: left; 
     font-weight: bold; 
     text-transform: none; 
-    border-bottom: 0rem solid black;
+    border-bottom: none solid black;
     text-decoration: none;
     padding-top: 9.04pt; 
     margin-bottom: 4.46pt;
@@ -83,7 +84,7 @@ p.quote:before {
     text-align: left; 
     font-weight: bold; 
     text-transform: none; 
-    border-bottom: 0rem solid black;
+    border-bottom: none solid black;
     text-decoration: none;
     padding-top: 9.04pt; 
     margin-bottom: 4.46pt;
@@ -97,7 +98,7 @@ p.quote:before {
     text-align: left; 
     font-weight: bold; 
     text-transform: none; 
-    border-bottom: 0rem solid black;
+    border-bottom: none solid black;
     text-decoration: none;
     padding-top: 9.04pt; 
     margin-bottom: 4.46pt;
@@ -111,7 +112,7 @@ p.quote:before {
     text-align: left; 
     font-weight: normal; 
     text-transform: none; 
-    border-bottom: 0rem solid black;
+    border-bottom: none solid black;
     text-decoration: none;
     padding-top: 9.04pt; 
     margin-bottom: 4.46pt;
@@ -125,7 +126,7 @@ p.quote:before {
     text-align: left; 
     font-weight: normal; 
     text-transform: none; 
-    border-bottom: 0rem solid black;
+    border-bottom: none solid black;
     text-decoration: none;
     padding-top: 9.04pt; 
     margin-bottom: 4.46pt;

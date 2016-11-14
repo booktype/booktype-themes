@@ -1,4 +1,5 @@
-/* Theme 'Bauhaus (Comfortable)' Version 0.2 update: 2016-10-29T10:00:13+02:00 */
+/* Created with www.booktype.pro */
+/* Theme 'Bauhaus (Comfortable)' Version 0.2 update: 2016-11-14T15:55:40+01:00 */
 #contenteditor {
   font-size: 13pt;
   line-height: normal;
@@ -21,7 +22,7 @@
   text-align: left; 
   text-indent: 0;
   line-height: inherit; 
-  border-left: 0.05em solid #000;
+  border-left: thin solid #000;
   padding-left: 2em;
   padding-top: 0em;
   margin-left: 1em;
@@ -55,7 +56,7 @@ p.quote:before {
     text-align: left; 
     font-weight: normal; 
     text-transform: none; 
-    border-bottom: 0.05rem solid black;
+    border-bottom: none solid black;
     text-decoration: none;
     padding-top: 0pt; 
     margin-bottom: 60pt;
@@ -69,7 +70,7 @@ p.quote:before {
     text-align: left; 
     font-weight: normal; 
     text-transform: none; 
-    border-bottom: 0.05rem solid black;
+    border-bottom: thin solid black;
     text-decoration: none;
     padding-top: 7.5pt; 
     margin-bottom: 7.5pt;
@@ -83,7 +84,7 @@ p.quote:before {
     text-align: left; 
     font-weight: normal; 
     text-transform: none; 
-    border-bottom: 0.05rem solid black;
+    border-bottom: thin solid black;
     text-decoration: none;
     padding-top: 4.95pt; 
     margin-bottom: 10.05pt;
@@ -97,7 +98,7 @@ p.quote:before {
     text-align: left; 
     font-weight: bold; 
     text-transform: none; 
-    border-bottom: 0rem solid black;
+    border-bottom: none solid black;
     text-decoration: none;
     padding-top: 4.95pt; 
     margin-bottom: 10.05pt;
@@ -111,7 +112,7 @@ p.quote:before {
     text-align: left; 
     font-weight: normal; 
     text-transform: none; 
-    border-bottom: 0rem solid black;
+    border-bottom: none solid black;
     text-decoration: none;
     padding-top: 4.95pt; 
     margin-bottom: 10.05pt;
@@ -125,7 +126,7 @@ p.quote:before {
     text-align: left; 
     font-weight: normal; 
     text-transform: none; 
-    border-bottom: 0rem solid black;
+    border-bottom: none solid black;
     text-decoration: none;
     padding-top: 4.95pt; 
     margin-bottom: 10.05pt;
@@ -143,7 +144,7 @@ p.quote:before {
 
 #contenteditor p {
     font-family: "texgyreadventor";
-    text-align: left;
+    text-align: justify;
     font-weight: normal;
     font-size: inherit;
     line-height: inherit;
