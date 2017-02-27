@@ -3,7 +3,47 @@
   "name": "Common Sense (Compact)",
   "author": "Micz Flor",
   "date": "11th August 2016",
-  "output": {
+  "output": {  
+    "pdfreactor": {
+      "options": {},
+      "body": "body_pdfreactor.html",
+      "assets": {
+        "fonts": [
+          "static/fonts/Ubuntu-R.ttf",
+          "static/fonts/Ubuntu-B.ttf",
+          "static/fonts/Ubuntu-RI.ttf",
+          "static/fonts/Ubuntu-BI.ttf",
+          "static/fonts/UbuntuMono-R.ttf",
+          "static/fonts/UbuntuMono-B.ttf",
+          "static/fonts/UbuntuMono-RI.ttf",
+          "static/fonts/UbuntuMono-BI.ttf",
+          "static/fonts/Ubuntu-L.ttf",
+          "static/fonts/Ubuntu-M.ttf",
+          "static/fonts/Ubuntu-LI.ttf",
+          "static/fonts/Ubuntu-MI.ttf"  
+        ]
+      }
+    },  
+    "pdfreactor-screenpdf": {
+      "options": {},
+      "body": "body_pdfreactor.html",
+      "assets": {
+        "fonts": [
+          "static/fonts/Ubuntu-R.ttf",
+          "static/fonts/Ubuntu-B.ttf",
+          "static/fonts/Ubuntu-RI.ttf",
+          "static/fonts/Ubuntu-BI.ttf",
+          "static/fonts/UbuntuMono-R.ttf",
+          "static/fonts/UbuntuMono-B.ttf",
+          "static/fonts/UbuntuMono-RI.ttf",
+          "static/fonts/UbuntuMono-BI.ttf",
+          "static/fonts/Ubuntu-L.ttf",
+          "static/fonts/Ubuntu-M.ttf",
+          "static/fonts/Ubuntu-LI.ttf",
+          "static/fonts/Ubuntu-MI.ttf"  
+        ]
+      }
+    },
     "mpdf": {
       "options": {},
       "frontmatter": "frontmatter_mpdf.html",
