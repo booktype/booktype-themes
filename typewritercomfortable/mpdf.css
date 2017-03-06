@@ -1,5 +1,5 @@
 /* Created with www.booktype.pro */
-/* Theme 'Typewriter (Comfortable)' Version 0.1 update: 2017-02-27T12:16:11+01:00 */
+/* Theme 'Typewriter (Comfortable)' Version 0.1 update: 2017-03-06T14:05:33+01:00 */
 /* START mpdf specific CSS */
 
 /* Header ********************************************************************/
@@ -809,10 +809,10 @@ caption,
 .caption_fig,
 .caption_image,
 .caption_figure {
-    font-family: "";
+    font-family: "texgyrecursor";
     font-size: 9.9pt;
     /*line-height: 13.2pt; /**/
-    text-align: ;
+    text-align: left;
     
     font-style: italic;
     font-weight: normal;
@@ -858,6 +858,7 @@ code {
 ol.endnotes {
     margin-top: 2em;
     padding-left: 1.2em;
+    /*uncomment4pdfreactor_border-top: 1px solid black; /**/
 }
 ol.endnotes li {
     font-family: "texgyrecursor";

@@ -1,5 +1,5 @@
 /* Created with www.booktype.pro */
-/* Theme 'Fairy Tale (Comfortable)' Version 0.2 update: 2017-02-27T12:16:05+01:00 */
+/* Theme 'Fairy Tale (Comfortable)' Version 0.2 update: 2017-03-06T14:05:27+01:00 */
 /* START mpdf specific CSS */
 
 /* Header ********************************************************************/
@@ -809,10 +809,10 @@ caption,
 .caption_fig,
 .caption_image,
 .caption_figure {
-    font-family: "";
+    font-family: "texgyrepagella";
     font-size: 8.1pt;
     /*line-height: 13.5pt; /**/
-    text-align: ;
+    text-align: left;
     
     font-style: italic;
     font-weight: normal;
@@ -858,6 +858,7 @@ code {
 ol.endnotes {
     margin-top: 2em;
     padding-left: 1.2em;
+    /*uncomment4pdfreactor_border-top: 1px solid black; /**/
 }
 ol.endnotes li {
     font-family: "texgyrepagella";
