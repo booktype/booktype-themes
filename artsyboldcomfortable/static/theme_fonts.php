@@ -1,5 +1,5 @@
 /* Created with www.booktype.pro */
-/* Theme 'Artsy Bold (Comfortable)' Version 0.2 update: 2017-03-27T18:24:48+02:00 */
+/* Theme 'Artsy Bold (Comfortable)' Version 0.2 update: 2017-03-27T18:37:30+02:00 */
 
         "dejavusans" => array(
           'R' => "DejaVuSans.ttf",

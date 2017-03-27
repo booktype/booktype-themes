@@ -1,5 +1,5 @@
 /* Created with www.booktype.pro */
-/* Theme 'Novel Classic (Compact)' Version 0.1 update: 2017-03-27T18:25:05+02:00 */
+/* Theme 'Novel Classic (Compact)' Version 0.1 update: 2017-03-27T18:37:47+02:00 */
 
         "texgyreschola" => array(
           'R' => "TeXGyreSchola-Regular.ttf",
