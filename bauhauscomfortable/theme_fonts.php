@@ -1,5 +1,5 @@
 /* Created with www.booktype.pro */
-/* Theme 'Bauhaus (Comfortable)' Version 0.2 update: 2017-03-06T14:05:17+01:00 */
+/* Theme 'Bauhaus (Comfortable)' Version 0.2 update: 2017-03-27T17:54:01+02:00 */
 
         "texgyreadventor" => array(
           'R' => "TeXGyreAdventor-Regular.ttf",

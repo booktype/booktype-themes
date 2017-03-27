@@ -1,5 +1,5 @@
 /* Created with www.booktype.pro */
-/* Theme 'Typewriter (Compact)' Version 0.1 update: 2017-03-06T14:05:34+01:00 */
+/* Theme 'Typewriter (Compact)' Version 0.1 update: 2017-03-27T17:54:19+02:00 */
 
         "texgyrecursor" => array(
           'R' => "TeXGyreCursor-Regular.ttf",

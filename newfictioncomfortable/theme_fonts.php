@@ -1,5 +1,5 @@
 /* Created with www.booktype.pro */
-/* Theme 'New Fiction (Comfortable)' Version 0.1 update: 2017-03-06T14:05:31+01:00 */
+/* Theme 'New Fiction (Comfortable)' Version 0.1 update: 2017-03-27T17:54:15+02:00 */
 
         "ubuntu" => array(
           'R' => "Ubuntu-R.ttf",
