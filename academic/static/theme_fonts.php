@@ -1,5 +1,5 @@
 /* Created with www.booktype.pro */
-/* Theme 'Academic (Compact)' Version 0.4 update: 2017-03-27T17:56:53+02:00 */
+/* Theme 'Academic (Compact)' Version 0.4 update: 2017-03-27T18:24:47+02:00 */
 
         "roboto" => array(
           'R' => "Roboto-Regular.ttf",
